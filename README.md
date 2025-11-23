@@ -33,18 +33,20 @@ root/
 ├── train.py                # Main training script
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+```
 
 ## 🚀 Installation
 Clone the repository:
 
 ```bash
-
 git clone [https://github.com/your-username/neuro-symbolic-ophthalmology.git](https://github.com/your-username/neuro-symbolic-ophthalmology.git)
 cd neuro-symbolic-ophthalmology
-Install dependencies:
 ```
 
+Install dependencies:
 ```bash
+pip install -r requirements.txt
+```
 
 ## 🛠️ Usage
 
@@ -56,6 +58,19 @@ python train.py
 ‍‍‍‍```
 
 *Note: You can adjust hyperparameters like `BATCH_SIZE`, `LR`, and `lambda_c` (concept weight) inside `train.py`.*
+
+
+### 2. Simulating Clinical Intervention
+To evaluate the Intervention Efficacy Score (IES)—i.e., how much the model responds to doctor's corrections—the training script automatically runs an evaluation at the end of the last epoch.
+
+Alternatively, use the utils function:
+
+```bash
+from src.utils import calculate_intervention_efficacy
+# ... load model ...
+ies = calculate_intervention_efficacy(model, test_loader, device)
+print(ies)
+‍‍‍‍```
 
 
 ## 📊 Data Format (BioArc)
@@ -78,5 +93,4 @@ The dataset must return a dictionary of ground truth concepts (derived from BioA
 
 
 
-pip install -r requirements.txt
-```
+
