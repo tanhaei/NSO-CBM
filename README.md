@@ -95,36 +95,60 @@ The dataset must return a dictionary of ground truth concepts (derived from BioA
 ### 🧬 BioArc Data Structure Overview
 
 ```mermaid
+---
+config:
+  look: handDrawn
+  theme: base
+---
 classDiagram
-    class PatientRecord {
+    classDef root fill:#ff7675,stroke:#2d3436,stroke-width:3px,color:white,font-weight:bold;
+    classDef structural fill:#74b9ff,stroke:#2d3436,stroke-width:2px,color:white;
+    classDef detail fill:#55efc4,stroke:#2d3436,stroke-width:2px,color:#2d3436;
+    
+    %% کلاس اصلی
+    class PatientRecord:::root {
         +int PatientID
         +Demographics Demographics
         +History History
         +Examinations Exams
     }
 
-    class Demographics {
+    %% کلاس‌های میانی
+    class Demographics:::structural {
         +string NationalCode
         +int Age
         +string Gender
     }
 
-    class Examinations {
+    class History:::structural {
+        +string MedicalHistory
+        +string FamilyHistory
+    }
+
+    class Examinations:::structural {
         +IOP_Data RightEye
         +IOP_Data LeftEye
         +OCT_Data Structural
     }
 
-    class IOP_Data {
+    %% کلاس‌های جزئیات
+    class IOP_Data:::detail {
         +float IOP_mmHg
         +float CupDiscRatio
         +boolean RimThinning
     }
+    
+    class OCT_Data:::detail {
+        +float RNFL_Thickness
+        +string Analysis
+    }
 
+    %% روابط
     PatientRecord *-- Demographics
     PatientRecord *-- History
     PatientRecord *-- Examinations
     Examinations *-- IOP_Data
+    Examinations *-- OCT_Data
 ```
 
 ## ⚖️ License
