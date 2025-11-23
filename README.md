@@ -46,5 +46,37 @@ Install dependencies:
 
 ```bash
 
+## 🛠️ Usage
+
+### 1. Training the Model
+To train the model with the joint optimization objective (Task Loss + Concept Loss), run:
+
+```bash
+python train.py
+‍‍‍‍```
+
+*Note: You can adjust hyperparameters like `BATCH_SIZE`, `LR`, and `lambda_c` (concept weight) inside `train.py`.*
+
+
+## 📊 Data Format (BioArc)
+
+The model expects data in the following format (handled by `src/dataset.py`):
+
+| Modality | Dimensions | Description |
+| :--- | :--- | :--- |
+| **OCT Image** | `(1, 224, 224)` | Retinal structural scans |
+| **IOP Series** | `(Seq_Len, 1)` | Longitudinal Intraocular Pressure |
+| **Metadata** | `(Num_Feats,)` | Demographics & History |
+
+**Concepts Dictionary:**
+The dataset must return a dictionary of ground truth concepts (derived from BioArc JSONs):
+- `c_cdr` (0-1)
+- `c_iop` (mmHg)
+- `c_notch` (0/1)
+- `c_rnfl` (0/1)
+- `c_fam` (0/1)
+
+
+
 pip install -r requirements.txt
 ```
