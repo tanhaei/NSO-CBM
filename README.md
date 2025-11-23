@@ -92,6 +92,41 @@ The dataset must return a dictionary of ground truth concepts (derived from BioA
 - `c_fam` (0/1)
 
 
+### 🧬 BioArc Data Structure Overview
+
+```mermaid
+classDiagram
+    class PatientRecord {
+        +int PatientID
+        +Demographics Demographics
+        +History History
+        +Examinations Exams
+    }
+
+    class Demographics {
+        +string NationalCode
+        +int Age
+        +string Gender
+    }
+
+    class Examinations {
+        +IOP_Data RightEye
+        +IOP_Data LeftEye
+        +OCT_Data Structural
+    }
+
+    class IOP_Data {
+        +float IOP_mmHg
+        +float CupDiscRatio
+        +boolean RimThinning
+    }
+
+    PatientRecord *-- Demographics
+    PatientRecord *-- History
+    PatientRecord *-- Examinations
+    Examinations *-- IOP_Data
+```
+
 ## ⚖️ License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
