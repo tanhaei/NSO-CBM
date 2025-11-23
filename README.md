@@ -55,7 +55,7 @@ To train the model with the joint optimization objective (Task Loss + Concept Lo
 
 ```bash
 python train.py
-‍‍‍‍```
+```
 
 *Note: You can adjust hyperparameters like `BATCH_SIZE`, `LR`, and `lambda_c` (concept weight) inside `train.py`.*
 
@@ -70,7 +70,7 @@ from src.utils import calculate_intervention_efficacy
 # ... load model ...
 ies = calculate_intervention_efficacy(model, test_loader, device)
 print(ies)
-‍‍‍‍```
+```
 
 
 ## 📊 Data Format (BioArc)
@@ -92,5 +92,6 @@ The dataset must return a dictionary of ground truth concepts (derived from BioA
 - `c_fam` (0/1)
 
 
+## ⚖️ License
 
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
