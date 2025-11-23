@@ -1,105 +1,115 @@
 import torch
 from torch.utils.data import Dataset
+import pandas as pd
 import json
-import gzip
 import numpy as np
-from PIL import Image
 import os
+from PIL import Image
 
 class BioArcDataset(Dataset):
-    def __init__(self, data_path, img_dir, mode='train', transform=None):
+    def __init__(self, csv_path, img_dir=None, mode='train'):
         """
         Args:
-            data_path (string): مسیر فایل فشرده (مثلاً 'data/bioarc_data.json.gz')
-            img_dir (string): مسیر پوشه تصاویر OCT
-            mode (string): 'train' یا 'test'
+            csv_path (string): Path to Farabi-EHR.csv
+            img_dir (string): Path to OCT images folder (optional for now)
         """
         self.img_dir = img_dir
-        self.transform = transform
         self.mode = mode
         
-        print(f"Loading data from {data_path}...")
+        # Load CSV
+        print(f"Loading clinical records from {csv_path}...")
+        self.df = pd.read_csv(csv_path)
         
-        # خواندن فایل GZ به صورت مستقیم
-        # فرض بر این است که فایل حاوی لیستی از رکوردهاست
-        with gzip.open(data_path, 'rt', encoding='utf-8') as f:
-            self.records = json.load(f)
-            
-        print(f"Loaded {len(self.records)} records.")
+        # Filter valid records (those with 'data' column)
+        self.df = self.df.dropna(subset=['data'])
+        print(f"Loaded {len(self.df)} valid patient records.")
 
     def __len__(self):
-        return len(self.records)
+        return len(self.df)
     
     def __getitem__(self, idx):
-        record = self.records[idx]
+        row = self.df.iloc[idx]
         
-        # --- 1. Load Metadata/Static Data ---
-        # نگاشت فیلدهای JSON به بردار ویژگی
-        # این بخش باید بر اساس ساختار دقیق دیتای شما تنظیم شود
-        static_features = []
-        # مثال: استخراج سن و جنسیت
-        age = record.get('1196', {}).get('Age', 0)
-        gender = 1 if record.get('1196', {}).get('Sex') == 'Male' else 0
-        static_features.extend([float(age), float(gender)])
-        # ... سایر ویژگی‌های استاتیک را اینجا اضافه کنید ...
+        # Parse the JSON string in 'data' column
+        try:
+            record_data = json.loads(row['data'])
+        except:
+            record_data = {}
+
+        # --- 1. Extract Concepts (The "Glaucoma 5") ---
         
-        static_data = torch.tensor(static_features, dtype=torch.float32)
+        # C1: IOP (Intraocular Pressure) - Code 1046
+        # We take the average of Right and Left if available
+        iop_r = record_data.get('1046', {}).get('RightIOPsize', 0)
+        iop_l = record_data.get('1103', {}).get('LeftIOPsize', 0) # Note: Left eye code might be 1103 based on data
+        # Handle cases where IOP is None or string
+        try: iop_val = max(float(iop_r or 0), float(iop_l or 0))
+        except: iop_val = 0.0
         
-        # --- 2. Load Time Series (IOP) ---
-        # فرض: IOPها در یک لیست ذخیره شده‌اند
-        iop_values = []
-        # استخراج از ساختار پیچیده JSON شما (نیاز به لاجیک پارس کردن دارد)
-        # اینجا یک نمونه ساده می‌گذارم:
-        if '1046' in record and 'RightIOPsize' in record['1046']:
-             val = record['1046']['RightIOPsize']
-             iop_values.append(float(val) if val else 0.0)
-        
-        # پدینگ یا برش سری زمانی به طول ثابت (مثلاً ۱۰)
-        seq_len = 10
-        if len(iop_values) < seq_len:
-            iop_values += [0.0] * (seq_len - len(iop_values))
-        else:
-            iop_values = iop_values[:seq_len]
-            
-        iop_series = torch.tensor(iop_values, dtype=torch.float32).unsqueeze(-1) # (Seq, 1)
-        
-        # --- 3. Load Image (OCT) ---
-        # فرض: اسم فایل عکس در متادیتا هست
-        img_name = record.get('img_filename', 'placeholder.png')
-        img_path = os.path.join(self.img_dir, img_name)
-        
-        if os.path.exists(img_path):
-            image = Image.open(img_path).convert('L') # L = Grayscale for OCT
-            image = np.array(image)
-        else:
-            image = np.zeros((224, 224), dtype=np.uint8) # تصویر خالی اگر نبود
-            
-        # تبدیل به تنسور
-        img_tensor = torch.tensor(image, dtype=torch.float32).unsqueeze(0) / 255.0
-        
-        # --- 4. Ground Truth Concepts & Targets ---
-        # استخراج مفاهیم از JSON برای آموزش مدل CBM
-        
-        # مثال استخراج
-        cdr_val = float(record.get('1053', {}).get('RightOpticDiscCupDiscRatio', 0.5))
-        has_glaucoma = 1 if "Glaucoma" in str(record.get('Diagnosis', '')) else 0
-        
+        # C2: CDR (Cup-to-Disc Ratio) - Code 1053 (OD) / 1091 (OS)
+        # Key: RightOpticDiscCupDiscRatioCup (Numeric value)
+        cdr_r = record_data.get('1053', {}).get('RightOpticDiscCupDiscRatioCup', 0.0)
+        cdr_l = record_data.get('1091', {}).get('LeftOpticDiscCupDiscRatioCup', 0.0)
+        try: cdr_val = max(float(cdr_r or 0), float(cdr_l or 0))
+        except: cdr_val = 0.0
+
+        # C3: Family History - Code 1034
+        # Key: FamilialHistoryGlaucoma inside nested list or dict
+        fam_hist = 0.0
+        hist_data = record_data.get('1034', {})
+        if 'cfgc_1034_FamilialHistory' in record_data: # Check parsed root
+             # Logic to parse list if exists
+             pass
+        # Simplified check for keyword in history
+        if 'Glaucoma' in str(hist_data):
+            fam_hist = 1.0
+
+        # C4: Structural Damage (Notch/RNFL) - Code 1053
+        # Checking for keywords like "RimThinning" or "NFLDefect"
+        struct_damage = 0.0
+        disc_data = str(record_data.get('1053', {}))
+        if 'RimThinning' in disc_data or 'NFLDefect' in disc_data:
+            struct_damage = 1.0
+
+        # Construct Concepts Dictionary
         concepts_true = {
+            'c_iop': torch.tensor([iop_val], dtype=torch.float32),
             'c_cdr': torch.tensor([cdr_val], dtype=torch.float32),
-            'c_iop': torch.tensor([np.mean(iop_values)], dtype=torch.float32),
-            'c_notch': torch.tensor([0.0], dtype=torch.float32), # باید از JSON پر شود
-            'c_rnfl': torch.tensor([0.0], dtype=torch.float32),  # باید از JSON پر شود
-            'c_fam': torch.tensor([0.0], dtype=torch.float32)    # باید از JSON پر شود
+            'c_fam': torch.tensor([fam_hist], dtype=torch.float32),
+            'c_struct': torch.tensor([struct_damage], dtype=torch.float32),
+            # Add placeholders for others if missing in CSV
+            'c_notch': torch.tensor([struct_damage], dtype=torch.float32), 
+            'c_rnfl': torch.tensor([0.0], dtype=torch.float32) 
         }
-        
-        # تولید ماسک (اگر دیتا در JSON نال بود، ماسک صفر شود)
-        masks = {k: torch.tensor([1.0]) for k in concepts_true} 
-        
+
+        # --- 2. Create Masks ---
+        # If value is 0 (and likely missing), we can set mask to 0 (optional)
+        masks = {}
+        for k, v in concepts_true.items():
+            masks[k] = torch.tensor([1.0]) if v.item() > 0 else torch.tensor([0.0]) 
+            # Note: Refine masking logic based on "completeness" column if available
+
+        # --- 3. Generate Target (Diagnosis) ---
+        # Heuristic: If Doctor Note contains "Glaucoma" or specific codes
+        # In real training, use explicit 'diagnosis' column
+        is_glaucoma = 0
+        full_text = str(record_data).lower()
+        if 'glaucoma' in full_text or 'poag' in full_text:
+            is_glaucoma = 1
+        elif iop_val > 21 or cdr_val > 0.6: # Clinical Rule Fallback
+            is_glaucoma = 1
+            
+        target = torch.tensor(is_glaucoma, dtype=torch.long)
+
+        # --- 4. Dummy Image/Series (Since CSV doesn't have them) ---
+        img = torch.zeros(1, 224, 224) 
+        iop_series = torch.zeros(10, 1) 
+
         return {
-            'img': img_tensor,
+            'img': img,
             'iop': iop_series,
-            'static': static_data,
-            'target': torch.tensor(has_glaucoma, dtype=torch.long),
+            'static': torch.zeros(10), # Placeholder
+            'target': target,
             'concepts': concepts_true,
             'masks': masks
         }
