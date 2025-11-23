@@ -13,7 +13,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def train():
     # 1. Setup Data
-    train_dataset = BioArcDataset(num_samples=500, mode='train')
+    train_dataset = BioArcDataset(csv_path="data/sample.csv", mode='train')
     train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
     
     # 2. Setup Model
