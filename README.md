@@ -34,3 +34,17 @@ root/
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
 
+## 🚀 Installation
+Clone the repository:
+
+```bash
+
+git clone [https://github.com/your-username/neuro-symbolic-ophthalmology.git](https://github.com/your-username/neuro-symbolic-ophthalmology.git)
+cd neuro-symbolic-ophthalmology
+Install dependencies:
+```
+
+```bash
+
+pip install -r requirements.txt
+```
