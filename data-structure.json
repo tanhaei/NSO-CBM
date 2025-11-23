@@ -1,0 +1,4114 @@
+{
+  "1034": {
+    "HistoryChiefComplaint": {
+      "single": "Chief Complaint"
+    },
+    "HistoryPMH": {
+      "single": "PMH"
+    },
+    "HistoryPMHDiseases": {
+      "single": "Diseases"
+    },
+    "HistoryPMHPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "HistoryRiskfamilialhistory": {
+      "single": "Familial History"
+    },
+    "FamilialHistoryRelation": {
+      "cfgc_1034_FamilialHistory": "Familial Relation"
+    },
+    "FamilialHistoryGlaucoma": {
+      "cfgc_1034_FamilialHistory": "Glaucoma"
+    },
+    "FamilialHistoryRRD": {
+      "cfgc_1034_FamilialHistory": "RRD"
+    },
+    "FamilialHistoryOther": {
+      "cfgc_1034_FamilialHistory": "Other"
+    },
+    "OphthalmicHistory": {
+      "single": "Ophthalmic History"
+    },
+    "OphthalmicHistoryAmblyopia": {
+      "single": "Amblyopia"
+    },
+    "OphthalmicHistoryPRP": {
+      "single": "PRP"
+    },
+    "OphthalmicHistoryPIVB": {
+      "single": "IVB"
+    },
+    "OphthalmicHistoryVitreoretinalSurgery": {
+      "single": "Vitreoretinal Surgery"
+    },
+    "OphthalmicHistoryCataractSurgery": {
+      "single": "Cataract Surgery"
+    },
+    "OphthalmicHistoryRefractiveSurgery": {
+      "single": "Refractive Surgery"
+    },
+    "OphthalmicHistoryGlaucomaSurgery": {
+      "single": "Glaucoma Surgery"
+    },
+    "OphthalmicHistoryStrabismusSurgery": {
+      "single": "Strabismus Surgery"
+    },
+    "OphthalmicHistoryOculoplasticSurgery": {
+      "single": "Oculoplastic Surgery"
+    },
+    "OphthalmicHistoryPhysicianRepairedPenetratingInjury": {
+      "single": "Repaired Penetrating Injury"
+    },
+    "OphthalmicHistoryPhysicianOcularTrauma": {
+      "single": "Ocular Trauma"
+    },
+    "OphthalmicHistoryPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "HistoryRiskFactorsCauseDateSurgicalrecords": {
+      "single": "Surgical History"
+    },
+    "HistoryRiskFactorsCauseSurgery": {
+      "cfgc_1034_HistorySurgical": "Cause of Surgery"
+    },
+    "HistoryRiskFactorsCauseDateSurgery": {
+      "cfgc_1034_HistorySurgical": "Date of Surgery"
+    },
+    "DrugHistory3val": {
+      "single": "Drug History"
+    },
+    "DrugHistory": {
+      "single": "Drug History"
+    },
+    "DrugHistoryPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1035": {
+    "OSTitle": {
+      "single": "OS"
+    },
+    "RefractionOSUCVA": {
+      "single": "UCVA"
+    },
+    "RefractionOSBCVAwithPresentGlasses": {
+      "single": "BCVA with Present Glasses"
+    },
+    "RefractionOSBCVA": {
+      "single": "BCVA"
+    },
+    "RefractionOSPresentGlasses": {
+      "single": "Present Glasses"
+    },
+    "RefractionOSPresentGlassesfarGlass": {
+      "single": "Far Glassess"
+    },
+    "RefractionOSPresentGlassesfarGlassSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSPresentGlassesfarGlassCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSPresentGlassesfarGlassAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSPresentGlassesNearGlass": {
+      "single": "Near Glassess"
+    },
+    "RefractionOSPresentGlassesNearGlassSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSPresentGlassesNearGlassCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSPresentGlassesNearGlassAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSDryRefraction": {
+      "single": "Dry Refraction"
+    },
+    "RefractionOSDryRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSDryRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSDryRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSSubjectiveRefraction": {
+      "single": "Subjective Refraction"
+    },
+    "RefractionOSSubjectiveRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSSubjectiveRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSSubjectiveRefractionCylinderAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSSubjectiveRefractionCylinderAdd": {
+      "single": "Add"
+    },
+    "RefractionOSCycloplegicRefraction": {
+      "single": "Cycloplegic Refraction"
+    },
+    "RefractionOSCycloplegicRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSCycloplegicRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSCycloplegicRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSCycloplegicOverRefraction": {
+      "single": "Over-Refraction"
+    },
+    "RefractionOSCycloplegicOverRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionOSCycloplegicOverRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionOSCycloplegicOverRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionOSCycloplegicNoGoodReflex": {
+      "single": "No Good Reflex"
+    },
+    "RefractionOSCycloplegicScissorsMotion": {
+      "single": "Scissors Motion"
+    },
+    "RefractionOSPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "ODTitle": {
+      "single": "OD"
+    },
+    "RefractionODUCVA": {
+      "single": "UCVA"
+    },
+    "RefractionODBCVAwithPresentGlasses": {
+      "single": "BCVA with Present Glasses"
+    },
+    "RefractionODBCVA": {
+      "single": "BCVA"
+    },
+    "RefractionODPresentGlasses": {
+      "single": "Present Glasses"
+    },
+    "RefractionODPresentGlassesFarGlass": {
+      "single": "Far Glasses"
+    },
+    "RefractionODPresentGlassesFarGlassSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODPresentGlassesFarGlassesCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODPresentGlassesFarGlassesAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODPresentGlassesNearGlassess": {
+      "single": "Near Glasses"
+    },
+    "RefractionODPresentGlassesNearGlassSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODPresentGlassesNearGlassCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODPresentGlassesNearGlassAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODDryRefraction": {
+      "single": "Dry Refraction"
+    },
+    "RefractionODDryRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODDryRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODDryRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODSubjectiveRefraction": {
+      "single": "Subjective Refraction"
+    },
+    "RefractionODSubjectiveRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODSubjectiveRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODSubjectiveRefractionCylinderAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODSubjectiveRefractionCylinderAdd": {
+      "single": "Add"
+    },
+    "RefractionODCycloplegicRefraction": {
+      "single": "Cycloplegic Refraction"
+    },
+    "RefractionODCycloplegicRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODCycloplegicRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODCycloplegicRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODCycloplegicOverRefraction": {
+      "single": "Over-Refraction"
+    },
+    "RefractionODCycloplegicOverRefractionSphere": {
+      "single": "Sphere"
+    },
+    "RefractionODCycloplegicOverRefractionCylinder": {
+      "single": "Cylinder"
+    },
+    "RefractionODCycloplegicOverRefractionAxis": {
+      "single": "Axis (Degree)"
+    },
+    "RefractionODCycloplegicNoGoodReflex": {
+      "single": "No Good Reflex"
+    },
+    "RefractionODCycloplegicScissorsMotion": {
+      "single": "Scissors Motion"
+    },
+    "RefractionODPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "RefractionInteligent": {
+      "single": "Refraction"
+    }
+  },
+  "1037": {
+    "rightUppereyelidODMRD1": {
+      "single": "MRD1 (mm)"
+    },
+    "rightUppereyelidODPtosis": {
+      "single": "Ptosis"
+    },
+    "rightUppereyelidODPtosisLevatorFunction": {
+      "single": "Levator Function"
+    },
+    "rightUppereyelidODCrease": {
+      "single": "Crease"
+    },
+    "rightUppereyelidODCreaseSize": {
+      "single": "Size"
+    },
+    "rightUppereyelidODRetraction": {
+      "single": "Retraction"
+    },
+    "rightUppereyelidODLagophthalmos": {
+      "single": "Lagophthalmos"
+    },
+    "rightUppereyelidODLidLagDownGaze": {
+      "single": "Lid Lag in Down Gaze"
+    },
+    "rightUppereyelidODEctropion": {
+      "single": "Ectropion"
+    },
+    "rightUppereyelidODEntropion": {
+      "single": "Entropion"
+    },
+    "rightUppereyelidODTrichiasis": {
+      "single": "Trichiasis"
+    },
+    "rightuppereyelidODDistichiasis": {
+      "single": "Distichiasis"
+    },
+    "rightuppereyelidODEdema": {
+      "single": "Edema"
+    },
+    "rightuppereyelidODErythema": {
+      "single": "Erythema"
+    },
+    "rightuppereyelidODMeibomianGlandPlugging": {
+      "single": "Meibomian Gland Plugging"
+    },
+    "rightuppereyelidODLaceration": {
+      "single": "Laceration"
+    },
+    "rightuppereyelidODLacerationUpperLocation": {
+      "single": "Location"
+    },
+    "rightuppereyelidODLacerationUpperSize": {
+      "single": "Size"
+    },
+    "rightuppereyelidODDeformity": {
+      "single": "Deformity"
+    },
+    "rightuppereyelidODScar": {
+      "single": "Scar"
+    },
+    "rightuppereyelidODDermatochalasis": {
+      "single": "Dermatochalasis"
+    },
+    "rightuppereyelidODEcchymosis": {
+      "single": "Ecchymosis"
+    },
+    "rightuppereyelidODAbrasion": {
+      "single": "Abrasion"
+    },
+    "rightuppereyelidODMass": {
+      "single": "Mass"
+    },
+    "rightuppereyelidODMassUpperLocation": {
+      "single": "Location"
+    },
+    "rightuppereyelidODMassUpperType": {
+      "single": "Type"
+    },
+    "rightuppereyelidODMassUpperSize": {
+      "single": "Size (mm)"
+    },
+    "rightuppereyelidODMassUpperColor": {
+      "single": "Color"
+    },
+    "rightuppereyelidODInitialDiagnosis": {
+      "single": "Initial Diagnosis"
+    },
+    "rightuppereyelidODInitialDiagnosisBenign": {
+      "single": "Benign"
+    },
+    "rightuppereyelidODInitialDiagnosisHemangioma": {
+      "single": "Hemangioma"
+    },
+    "rightuppereyelidODInitiaDiagnosisPlexiformNeurofibroma": {
+      "single": "Plexiform Neurofibroma"
+    },
+    "rightuppereyelidODInitialDiagnosisOther": {
+      "single": "Other"
+    },
+    "rightuppereyelidODInitialDiagnosisMalignant": {
+      "single": "Malignant"
+    },
+    "rightuppereyelidODInitialDiagnosisMalignantBCC": {
+      "single": "BCC"
+    },
+    "rightuppereyelidODInitialDiagnosisMalignantOther": {
+      "single": "Other"
+    },
+    "rightuppereyelidPhysicianNotelabel": {
+      "single": "Physician Note"
+    }
+  },
+  "1038": {
+    "righteyebrowEyebrowPtosis": {
+      "single": "Eyebrow Ptosis"
+    },
+    "righteyebrowElevatedEyelid": {
+      "single": "Elevated Eyebrow"
+    },
+    "righteyebrowLaceration": {
+      "single": "Laceration"
+    },
+    "righteyebrowLacerationLocation": {
+      "single": "Location"
+    },
+    "righteyebrowLacerationLocationMedial": {
+      "single": "Medial"
+    },
+    "righteyebrowLacerationLocationCentral": {
+      "single": "Central"
+    },
+    "righteyebrowLacerationLocationLateral": {
+      "single": "Lateral"
+    },
+    "righteyebrowLacerationSize": {
+      "single": "Size"
+    },
+    "righteyebrowphysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1039": {
+    "RightLacrimalsystemEpiphora": {
+      "single": "Epiphora"
+    },
+    "RightLacrimalsystemEpiphoraPusReflux": {
+      "single": "Pus Reflux"
+    },
+    "RightLacrimalsystemEpiphoraIrrigationest": {
+      "single": "Irrigation Test"
+    },
+    "RightLacrimalsystemEpiphoraProbingofUpperSystem": {
+      "single": "Probing of Upper System"
+    },
+    "RightLacrimalsystemEpiphoraProbingofUpperSystemDyeDisappearancetest": {
+      "single": "Dye Disappearance Test"
+    },
+    "RightPunctaandcanaliculi": {
+      "single": "Puncta and Canaliculi"
+    },
+    "rightLacrimalsystemphysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1040": {
+    "GlobeProptosis": {
+      "single": "Proptosis"
+    },
+    "GlobeEnophthalmos": {
+      "single": "Enophthalmos"
+    },
+    "GlobeMicrophthalmia": {
+      "single": "Microphthalmia"
+    },
+    "GlobeGlobeDystopia": {
+      "single": "Globe Dystopia"
+    },
+    "GlobeGlobeDystopiaUp": {
+      "single": "Up"
+    },
+    "GlobeGlobeDystopiaDown": {
+      "single": "Down"
+    },
+    "GlobeGlobeDystopiaMedial": {
+      "single": "Medial"
+    },
+    "GlobeGlobeDystopiaLateral": {
+      "single": "Lateral"
+    },
+    "GlobeAnophthalmicSocket": {
+      "single": "Anophthalmic Socket"
+    },
+    "GlobeAnophthalmicSocketDischarge": {
+      "single": "Discharge"
+    },
+    "GlobeContractedFornix": {
+      "single": "Contracted Fornix"
+    },
+    "GlobeContractedFornixUpper": {
+      "single": "Upper"
+    },
+    "GlobeContractedFornixLower": {
+      "single": "Lower"
+    },
+    "GlobeContractedExposedImplant": {
+      "single": "Exposed Implant"
+    },
+    "rightGlobephysiciannote": {
+      "single": "Physician Note"
+    }
+  },
+  "1042": {
+    "rightlowereyelidODMRD2": {
+      "single": "MRD2 (mm)"
+    },
+    "rightlowereyelidODRetraction": {
+      "single": "Retraction"
+    },
+    "rightlowereyelidODEctropion": {
+      "single": "Ectropion"
+    },
+    "rightlowereyelidODEntropion": {
+      "single": "Entropion"
+    },
+    "rightlowereyelidODTrichiasis": {
+      "single": "Trichiasis"
+    },
+    "rightlowereyelidODDistichiasis": {
+      "single": "Distichiasis"
+    },
+    "rightlowereyelidODEdema": {
+      "single": "Edema"
+    },
+    "rightlowereyelidODErythema": {
+      "single": "Erythema"
+    },
+    "rightlowereyelidODMeibomianGlandPlugging": {
+      "single": "Meibomian Gland Plugging"
+    },
+    "rightlowereyelidODLaceration": {
+      "single": "Laceration"
+    },
+    "rightlowereyelidODLacerationUpperLocation": {
+      "single": "Location"
+    },
+    "rightlowereyelidODLacerationUpperSize": {
+      "single": "Size"
+    },
+    "rightlowereyelidODDeformity": {
+      "single": "Deformity"
+    },
+    "rightlowereyelidODScar": {
+      "single": "Scar"
+    },
+    "rightlowereyelidODDermatochalasis": {
+      "single": "Dermatochalasis"
+    },
+    "rightlowereyelidODEcchymosis": {
+      "single": "Ecchymosis"
+    },
+    "rightlowereyelidODAbrasion": {
+      "single": "Abrasion"
+    },
+    "rightlowereyelidODMass": {
+      "single": "Mass"
+    },
+    "rightlowereyelidODMassUpperLocation": {
+      "single": "Location"
+    },
+    "rightlowereyelidODMassUpperType": {
+      "single": "Type"
+    },
+    "rightlowereyelidODMassUpperSize": {
+      "single": "Size (mm)"
+    },
+    "rightlowereyelidODMassUpperColor": {
+      "single": "Color"
+    },
+    "rightlowereyelidODInitialDiagnosis": {
+      "single": "Initial Diagnosis"
+    },
+    "rightlowereyelidODInitialDiagnosisBenign": {
+      "single": "Benign"
+    },
+    "rightlowereyelidODInitialDiagnosisHemangioma": {
+      "single": "Hemangioma"
+    },
+    "rightlowereyelidODInitiaDiagnosisPlexiformNeurofibroma": {
+      "single": "Plexiform Neurofibroma"
+    },
+    "rightlowereyelidODInitialDiagnosisOther": {
+      "single": "Other"
+    },
+    "rightlowereyelidODInitialDiagnosisMalignant": {
+      "single": "Malignant"
+    },
+    "rightlowereyelidODInitialDiagnosisMalignantBCC": {
+      "single": "BCC"
+    },
+    "rightlowereyelidODInitialDiagnosisMalignantOther": {
+      "single": "Other"
+    },
+    "rightlowereyelidPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1044": {
+    "RightODConjunctivaandScleraConjunctivochalasis": {
+      "single": "Conjunctivochalasis"
+    },
+    "RightODConjunctivaandScleraConjuntivalInjection": {
+      "single": "Conjuntival Injection"
+    },
+    "RightODConjunctivaandScleraDischarge": {
+      "single": "Discharge"
+    },
+    "RightODConjunctivaandScleraPinguecula": {
+      "single": "Pinguecula"
+    },
+    "RightODConjunctivaandScleraPterygium": {
+      "single": "Pterygium"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesion": {
+      "single": "Conjuctival Lesion"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionPigmented": {
+      "single": "Pigmented"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionElevated": {
+      "single": "Elevated"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionLeukoplakic": {
+      "single": "Leukoplakic"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionGelatinous": {
+      "single": "Gelatinous"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionCystic": {
+      "single": "Cystic"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionScar": {
+      "single": "Scar"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionBleb": {
+      "single": "Bleb"
+    },
+    "RightODConjunctivaandScleraConjuctivalLesionSentinelVessels": {
+      "single": "Sentinel Vessels"
+    },
+    "RightODConjunctivaandScleraSubConjunctivalHemorrhage": {
+      "single": "Sub Conjunctival Hemorrhage"
+    },
+    "RightODConjunctivaandScleraConjunctivalLaceration": {
+      "single": "Conjunctival Laceration"
+    },
+    "RightODConjunctivaandScleraConjunctivalLacerationSize": {
+      "single": "Size"
+    },
+    "RightODConjunctivaandScleraScleralLaceration": {
+      "single": "Scleral Laceration"
+    },
+    "RightODConjunctivaandScleraScleralLacerationSize": {
+      "single": "Size"
+    },
+    "RightODConjunctivaandScleraEpiscleralInjection": {
+      "single": "Episcleral Injection"
+    },
+    "RightODConjunctivaandScleraScleralThinning": {
+      "single": "Scleral Thinning"
+    },
+    "RightODConjunctivaandScleraPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1045": {
+    "RightODCorneaOpacity3val": {
+      "single": "Opacity"
+    },
+    "RightODCorneaOpacity": {
+      "single": "Superficial"
+    },
+    "RightODCorneaVascularization3val": {
+      "single": "Vascularization"
+    },
+    "RightODCorneaVascularization": {
+      "single": "Peripheral"
+    },
+    "RightODCorneaInfiltration3val": {
+      "single": "Infiltration"
+    },
+    "RightODCorneaInfiltration": {
+      "single": "Superficial"
+    },
+    "RightODCorneaEndothelialPlaque": {
+      "single": "Endothelial Plaque"
+    },
+    "RightODCorneaGuttata3val": {
+      "single": "Guttata"
+    },
+    "RightODCorneaGuttata": {
+      "single": "Peripheral"
+    },
+    "RightODCorneaEdema3val": {
+      "single": "Edema"
+    },
+    "RightODCorneaEdema": {
+      "single": "Stromal"
+    },
+    "RightODCorneaLipidKeratopathy": {
+      "single": "Lipid Keratopathy"
+    },
+    "RightODCorneaBandKeratopathy": {
+      "single": "Band Keratopathy"
+    },
+    "RightODCorneaHaabStriae": {
+      "single": "Haabs Striae"
+    },
+    "RightODCorneaMegalocornea": {
+      "single": "Megalocornea"
+    },
+    "RightODCorneaMicrocornea": {
+      "single": "Microcornea"
+    },
+    "RightODCorneaLaceration": {
+      "single": "Laceration"
+    },
+    "RightODCorneaLocation3val": {
+      "single": "Location"
+    },
+    "RightODCorneaLocationSclera": {
+      "single": "Sclera"
+    },
+    "RightODCorneaLocationCornea3val": {
+      "single": "Cornea"
+    },
+    "RightODCorneaLocationCornea": {
+      "single": "Para Center"
+    },
+    "RightODCorneaLocationCorneasize": {
+      "single": "Size"
+    },
+    "RightODCorneaUvealProlapse": {
+      "single": "Uveal Prolapse"
+    },
+    "RightODCorneaZone": {
+      "single": "Zone"
+    },
+    "RightODCorneaAbrasion": {
+      "single": "Abrasion"
+    },
+    "RightODCorneaCornealEpithelialDefect": {
+      "single": "Corneal Epithelial Defect"
+    },
+    "RightODCorneaCornealEpithelialDefectLocation": {
+      "single": "Location"
+    },
+    "RightODCorneaCornealEpithelialDefectSize": {
+      "single": "Size"
+    },
+    "RightODCorneaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1046": {
+    "RightIOP": {
+      "single": "IOP"
+    },
+    "RightIOPsize": {
+      "single": "(mmHg)"
+    },
+    "RightIOPOffwithMedication": {
+      "single": "Off Medication"
+    },
+    "RightIOPWithMedicationsTimolol": {
+      "single": "Timolol"
+    },
+    "RightIOPWithMedicationsDorzolamide": {
+      "single": "Dorzolamide"
+    },
+    "RightIOPWithMedicationsBrimonidine": {
+      "single": "Brimonidine"
+    },
+    "RightIOPWithMedicationsLatanoprost": {
+      "single": "Latanoprost"
+    },
+    "RightIOPWithMedicationsFixedCombinationofTimololandDorzolamide": {
+      "single": "Fixed Combination of Timolol and Dorzolamide"
+    },
+    "RightIOPWithMedicationsFixedCombinationofTimololandLatanoprost": {
+      "single": "Fixed Combination of Timolol and Latanoprost"
+    },
+    "RightIOPWithMedicationsPilocarpine": {
+      "single": "Pilocarpine"
+    },
+    "RightIOPWithMedicationsBetaxolol": {
+      "single": "Betaxolol"
+    },
+    "RightIOPWithMedicationsPilocarpineTimeExamination": {
+      "single": "Time of Examination"
+    },
+    "RightIOPAngle": {
+      "single": "Angle"
+    },
+    "RightIOPAngleVanHerickMethod": {
+      "single": "Van Herick Method"
+    },
+    "RightIOPAnglePeripheralAnteriorSynechiae": {
+      "single": "Peripheral Anterior Synechiae (PAS)"
+    },
+    "RightIOPAnglePhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1047": {
+    "RightAnterioChamberACReaction": {
+      "single": "AC Reaction"
+    },
+    "RightAnterioChamberHypopyon": {
+      "single": "Hypopyon"
+    },
+    "RightAnterioChamberHyphema": {
+      "single": "Clot Hyphema"
+    },
+    "RightAnterioChamberMicroscopicHyphema": {
+      "single": "Microscopic Hyphema"
+    },
+    "RightAnterioChamberKeraticPrecipitate": {
+      "single": "Keratic Precipitate"
+    },
+    "RightAnterioChamberKeraticPrecipitateMuttonFat": {
+      "single": "Mutton Fat"
+    },
+    "RightAnterioChamberKeraticPrecipitateFine": {
+      "single": "Fine"
+    },
+    "RightAnterioChamberKeraticPrecipitatePigmentedKP": {
+      "single": "Pigmented KP"
+    },
+    "RightAnterioChamberKeraticPrecipitateDiffuseKP": {
+      "single": "Diffuse KP"
+    },
+    "RightAnterioChamberShallowAC": {
+      "single": "Shallow AC"
+    },
+    "RightAnterioChamberPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1048": {
+    "RightIrisNVI": {
+      "single": "NVI"
+    },
+    "RightIrisAtrophy": {
+      "single": "Iris Atrophy"
+    },
+    "RightIrisIrisBombe": {
+      "single": "Iris Bombe"
+    },
+    "RightIrisHeterochromia": {
+      "single": "Heterochromia"
+    },
+    "RightIrisIridodialysis": {
+      "single": "Iridodialysis"
+    },
+    "RightIrisNevus": {
+      "single": "Nevus"
+    },
+    "RightIrisPosteriorSynechia": {
+      "single": "Posterior Synechia (PS)"
+    },
+    "RightIrisIrisProlapse": {
+      "single": "Iris Prolapse"
+    },
+    "RightIrisrisLaceration": {
+      "single": "Iris Laceration"
+    },
+    "RightIrisAniridia": {
+      "single": "Aniridia"
+    },
+    "RightIrisColoboma": {
+      "single": "Coloboma"
+    },
+    "RightIrisPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1049": {
+    "RightPupilCorectopia": {
+      "single": "Corectopia"
+    },
+    "RightPupilSluggishPupil": {
+      "single": "Sluggish Pupil"
+    },
+    "RightPupilSphincterRupture": {
+      "single": "Sphincter Rupture"
+    },
+    "RightPupilRAPD": {
+      "single": "RAPD"
+    },
+    "RightPupilAnisocoria": {
+      "single": "Anisocoria"
+    },
+    "RightPupilPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1050": {
+    "RightCrystallineLensCataract": {
+      "single": "Cataract"
+    },
+    "RightCrystallineLensCataractNuclearSclerosing": {
+      "single": "Nuclear Sclerosing"
+    },
+    "RightCrystallineLensCataractBrunescent": {
+      "single": "Brunescent"
+    },
+    "RightCrystallineLensCataractMature": {
+      "single": "Mature"
+    },
+    "RightCrystallineLensCataractIntumescent": {
+      "single": "Intumescent"
+    },
+    "RightCrystallineLensCataractIntumescentPosteriorSubcapsularCataract": {
+      "single": "Posterior Subcapsular Cataract"
+    },
+    "RightCrystallineLensCataractCorticalCataract": {
+      "single": "Cortical Cataract"
+    },
+    "RightCrystallineLensCataractAnteriorPolarCataract": {
+      "single": "Anterior Polar Cataract"
+    },
+    "RightCrystallineLensCataractPosteriorPolarCataract": {
+      "single": "Posterior Polar Cataract"
+    },
+    "RightCrystallineLensCataractCongenital": {
+      "single": "Congenital"
+    },
+    "RightCrystallineLensCataractTraumatilCataract": {
+      "single": "Traumatic Cataract"
+    },
+    "RightCrystallineLensLenticonus": {
+      "single": "Lenticonus"
+    },
+    "RightCrystallineLensMittendorfDot": {
+      "single": "Mittendorf Dot"
+    },
+    "RightCrystallineLensCrystallineLensSubluxation": {
+      "single": "Crystalline Lens Subluxation"
+    },
+    "RightCrystallineLensCrystallineLensDislocation": {
+      "single": "Crystalline Lens Dislocation"
+    },
+    "RightCrystallineLensZonulysis": {
+      "single": "Zonulysis"
+    },
+    "RightCrystallineLensPhacodonesis": {
+      "single": "Phacodonesis"
+    },
+    "RightCrystallineLensPseudophakic": {
+      "single": "Pseudophakic"
+    },
+    "RightCrystallineLensBiphakic": {
+      "single": "Biphakic"
+    },
+    "RightCrystallineLensAphakia": {
+      "single": "Aphakia"
+    },
+    "RightCrystallineLensPCO": {
+      "single": "PCO"
+    },
+    "RightCrystallineLensCapsularPhimosis": {
+      "single": "Capsular Phimosis"
+    },
+    "RightCrystallineLensSubluxedIOL": {
+      "single": "Subluxed IOL"
+    },
+    "RightCrystallineLensIOLDislocation": {
+      "single": "IOL Dislocation"
+    },
+    "RightCrystallineLensIOLOpacity": {
+      "single": "IOL Opacity"
+    },
+    "RightCrystallineLensIOLCapture": {
+      "single": "IOL Capture"
+    },
+    "RightCrystallineLensPseudoexfoliation": {
+      "single": "Pseudoexfoliation (PEX)"
+    },
+    "RightCrystallineLensPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1052": {
+    "RightVitreousSyneresis": {
+      "single": "Syneresis"
+    },
+    "RightVitreousPVD": {
+      "single": "PVD"
+    },
+    "RightVitreousWeisRing": {
+      "single": "Weis Ring"
+    },
+    "RightVitreousVitreousHemorrhage": {
+      "single": "Vitreous Hemorrhage"
+    },
+    "RightVitreousVitreousOrganization": {
+      "single": "Vitreous Organization"
+    },
+    "RightVitreousVitreousOpacity": {
+      "single": "Vitreous Opacity"
+    },
+    "RightVitreousShafersSign": {
+      "single": "Shafers Sign"
+    },
+    "RightVitreousVitritis": {
+      "single": "Vitritis"
+    },
+    "RightVitreousAsteroidHyalosis": {
+      "single": "Asteroid Hyalosis"
+    },
+    "RightVitreousPersistentFetalVasculaturePFVPHPV": {
+      "single": "Persistent Fetal Vasculature (PFV/PHPV)"
+    },
+    "RightVitreousSiliconeOilfilled": {
+      "single": "Silicone Oil-filled"
+    },
+    "RightVitreousGasBubble": {
+      "single": "Gas Bubble"
+    },
+    "RightVitreousPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1053": {
+    "RightOpticDiscColor": {
+      "single": "Color"
+    },
+    "RightOpticDiscCupDiscRatio": {
+      "single": "Cup Disc Ratio"
+    },
+    "RightOpticDiscCupDiscRatioCup": {
+      "single": "Cup Size"
+    },
+    "RightOpticDiscNeuroretinalRimThinning": {
+      "single": "Neuroretinal Rim Thinning (Notch)"
+    },
+    "RightOpticDiscNFLDefect": {
+      "single": "NFL Defect"
+    },
+    "RightOpticDiscOpticDiscHemorrhage": {
+      "single": "Optic Disc Hemorrhage"
+    },
+    "RightOpticDiscNasalizationoftheVessels": {
+      "single": "Nasalization of the Vessels"
+    },
+    "RightOpticDiscSize": {
+      "single": "Size"
+    },
+    "RightOpticDiscHypoplasticDisc": {
+      "single": "Hypoplastic Disc"
+    },
+    "RightOpticDiscOpticDiscAvulsion": {
+      "single": "Optic Disc Avulsion"
+    },
+    "RightOpticDiscOpticDiscColoboma": {
+      "single": "Optic Disc Coloboma"
+    },
+    "RightOpticDiscMorningGlory": {
+      "single": "Morning Glory"
+    },
+    "RightOpticDiscTiltedDisc": {
+      "single": "Tilted Disc"
+    },
+    "RightOpticDiscOpticDiscSwelling": {
+      "single": "Optic Disc Swelling"
+    },
+    "RightOpticDiscOpticDiscDrusen": {
+      "single": "Optic Disc Drusen"
+    },
+    "RightOpticDiscPeripapillaryAtrophy": {
+      "single": "Peripapillary Atrophy"
+    },
+    "RightOpticDiscPeripapillaryScar": {
+      "single": "Peripapillary Scar"
+    },
+    "RightOpticDiscWeissRing": {
+      "single": "Weiss Ring"
+    },
+    "RightOpticDiscMyopicCrescent": {
+      "single": "Myopic Crescent"
+    },
+    "RightOpticDiscNeovascularizationattheDisc": {
+      "single": "Neovascularization at the Disc (NVD)"
+    },
+    "RightOpticDiscPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1054": {
+    "RightVitreoretinalInterfaceEpiretinalMembrane": {
+      "single": "Epiretinal Membrane (ERM)"
+    },
+    "RightVitreoretinalInterfaceFullThicknessMacularHole": {
+      "single": "Full-Thickness Macular Hole (FTMH)"
+    },
+    "RightVitreoretinalInterfacePhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1055": {
+    "RightMaculaMacularVitelliformLesion": {
+      "single": "Macular Vitelliform Lesion"
+    },
+    "RightMaculaPigmentEpithelialDetachment": {
+      "single": "Pigment Epithelial Detachment (PED)"
+    },
+    "RightMaculaCNV": {
+      "single": "CNV"
+    },
+    "RightMaculaPigmentaryChange": {
+      "single": "Pigmentary Change"
+    },
+    "RightMaculaGeographicAtrophy": {
+      "single": "Geographic Atrophy"
+    },
+    "RightMaculaMacularEdema": {
+      "single": "Macular Edema"
+    },
+    "RightMaculaMacularExudate": {
+      "single": "Macular Exudate"
+    },
+    "RightMaculaSubretinalFluid": {
+      "single": "Subretinal Fluid"
+    },
+    "RightMaculaDrusen": {
+      "single": "Drusen"
+    },
+    "RightMaculaScar": {
+      "single": "Scar"
+    },
+    "RightMaculaChorioretinalAtrophy": {
+      "single": "Chorioretinal Atrophy"
+    },
+    "RightMaculaReducedFovealReflex": {
+      "single": "Reduced Foveal Reflex"
+    },
+    "RightMaculaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1056": {
+    "RightVascularSystemArterialNarrowing": {
+      "single": "Arterial Narrowing"
+    },
+    "RightVascularSystemVenousTortuosity": {
+      "single": "Venous Tortuosity"
+    },
+    "RightVascularSystemAVnicking": {
+      "single": "AV-nicking"
+    },
+    "RightVascularSystemVenousBeading": {
+      "single": "Venous Beading"
+    },
+    "RightVascularSystemOccludedVessels": {
+      "single": "Occluded Vessels (Non-Perfusion Area)"
+    },
+    "RightVascularSystemLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "RightVascularSystemLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "RightVascularSystemLocationMacular": {
+      "single": "Macular"
+    },
+    "RightVascularSystemVascularSheathing": {
+      "single": "Vascular Sheathing"
+    },
+    "RightVascularSystemBRVO": {
+      "single": "BRVO"
+    },
+    "RightVascularSystemCRVO": {
+      "single": "CRVO"
+    },
+    "RightVascularSystemHemiRVO": {
+      "single": "Hemi-RVO"
+    },
+    "RightVascularSystemBRAO": {
+      "single": "BRAO"
+    },
+    "RightVascularSystemCilioretinalArteryOcclusion": {
+      "single": "Cilioretinal Artery Occlusion"
+    },
+    "RightVascularSystemCRAOwithSparedCilioretinalArtery": {
+      "single": "CRAO with Spared Cilioretinal Artery"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidHemorrhage": {
+      "single": "Subhyaloid Hemorrhage"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalHemorrhage": {
+      "single": "Preretinal Hemorrhage"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalInferonasal": {
+      "single": "Inferonasal"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalSuperonasal": {
+      "single": "Superonasal"
+    },
+    "RightVascularSystemCilioretinalArterySubhyaloidPreretinalMacular": {
+      "single": "Macular"
+    },
+    "RightVascularSystemIntraretinalHemorrhage": {
+      "single": "Intraretinal Hemorrhage"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "RightVascularSystemIntraretinalHemorrhageLocationMacular": {
+      "single": "Macular"
+    },
+    "RightVascularSystemSubretinalHemorrhage": {
+      "single": "Subretinal Hemorrhage"
+    },
+    "RightVascularSystemSubretinalHemorrhageLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemMacroaneurysm": {
+      "single": "Macroaneurysm"
+    },
+    "RightVascularSystemMicroaneurysm": {
+      "single": "Microaneurysm"
+    },
+    "RightVascularSystemMicroaneurysmLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemMicroaneurysmLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemMicroaneurysmLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemMicroaneurysmLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "RightVascularSystemMicroaneurysmLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "RightVascularSystemMicroaneurysmLocationMacular": {
+      "single": "Macular"
+    },
+    "RightVascularSystemSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemITelangiectasia": {
+      "single": "Telangiectasia"
+    },
+    "RightVascularSystemIntraretinalMicrovascularAbnormality": {
+      "single": "Intraretinal Microvascular Abnormality (IRMA)"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhere": {
+      "single": "Neovascularization of the Retina Elsewhere (NVE)"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereSize": {
+      "single": "Size"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocation": {
+      "single": "Location"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "RightVascularSystemNeovascularizationoftheretinaelsewhereLocationMacular": {
+      "single": "Macular"
+    },
+    "RightVascularSystemRetinopathyofPrematurity": {
+      "single": "Retinopathy of Prematurity (ROP)"
+    },
+    "RightVascularSystemRetinopathyofPrematurityBirthWeightinGram500ramsto4500Grams": {
+      "single": "Birth Weight in Grams"
+    },
+    "RightVascularSystemRetinopathyofPrematurityGestationalAgeinWeeks22to40": {
+      "single": "Gestational Age in Weeks: 22 to 40"
+    },
+    "RightVascularSystemRetinopathyofPrematurityPlus": {
+      "single": "Plus"
+    },
+    "RightVascularSystemRetinopathyofPrematurityPreplus": {
+      "single": "Pre-plus"
+    },
+    "RightVascularSystemRetinopathyofPrematurityNoPlus": {
+      "single": "No Plus"
+    },
+    "RightVascularSystemRetinopathyofPrematurityZone": {
+      "single": "Zone"
+    },
+    "RightVascularSystemRetinopathyofPrematurityStage": {
+      "single": "Stage"
+    },
+    "RightVascularSystemPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1058": {
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachment": {
+      "single": "Rhegmatogenous Retinal Detachment (RRD)"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentMaculaon": {
+      "single": "Macula-on"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentMaculaoff": {
+      "single": "Macula-off"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentSuperior": {
+      "single": "Superior"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentInferior": {
+      "single": "Inferior"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentNasal": {
+      "single": "Nasal"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentTemporal": {
+      "single": "Temporal"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentTotal": {
+      "single": "Total"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathy3val": {
+      "single": "Proliferative Vitreoretinopathy (PVR)"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathy": {
+      "single": "A"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathyCA": {
+      "single": "CA تا"
+    },
+    "RightPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathyCP": {
+      "single": "CP تا"
+    },
+    "RightPeripheralRetinaTractionalRetinalDetachment": {
+      "single": "Tractional Retinal Detachment"
+    },
+    "RightPeripheralRetinaSerousRetinalDetachment": {
+      "single": "Serous Retinal Detachment"
+    },
+    "RightPeripheralRetinaRetinoschisis": {
+      "single": "Retinoschisis"
+    },
+    "RightPeripheralRetinaHorseshoeTear": {
+      "single": "Horse-shoe Tear"
+    },
+    "RightPeripheralRetinaHorseshoeTearclockrange": {
+      "single": "Horse-shoe Tear تا"
+    },
+    "RightPeripheralRetinaGiantTear": {
+      "single": "Giant Tear"
+    },
+    "RightPeripheralRetinaGiantTearclockrange": {
+      "single": "Giant Tear تا"
+    },
+    "RightPeripheralRetinaAtrophicHole": {
+      "single": "Atrophic Hole"
+    },
+    "RightPeripheralRetinaAtrophicHoleclockrange": {
+      "single": "Atrophic Hole تا"
+    },
+    "RightPeripheralRetinaLatticeDegeneration": {
+      "single": "Lattice Degeneration"
+    },
+    "RightPeripheralRetinaLatticeDegenerationclockrange": {
+      "single": "Lattice Degeneration تا"
+    },
+    "RightPeripheralRetinaPavingStoneDegeneration": {
+      "single": "Paving-Stone Degeneration"
+    },
+    "RightPeripheralRetinaPavingStoneDegenerationclockrange": {
+      "single": "Paving-Stone Degeneration تا"
+    },
+    "RightPeripheralRetinaBoneSpicules": {
+      "single": "Bone Spicules"
+    },
+    "RightPeripheralRetinaPavingBuckleEffect": {
+      "single": "Buckle Effect"
+    },
+    "RightPeripheralRetinaPavingBuckleEffectclockrange": {
+      "single": "Buckle Effect تا"
+    },
+    "RightPeripheralRetinaPavingLaserScar": {
+      "single": "Laser Scar"
+    },
+    "RightPeripheralRetinaLaserScarRetinaPanretinalPhotocoagulationScar": {
+      "single": "Pan-retinal Photocoagulation Scar (PRP)"
+    },
+    "RightPeripheralRetinaLaserScarMacularPhotocoagulation": {
+      "single": "Macular Photocoagulation"
+    },
+    "RightPeripheralRetinaTargetedRetinalPhotocoagulationScar": {
+      "single": "Targeted Retinal Photocoagulation Scar (TRP)"
+    },
+    "RightPeripheralRetinaTargetedRetinalPhotocoagulationScarLocation": {
+      "single": "Location"
+    },
+    "RightPeripheralRetinaColoboma": {
+      "single": "Coloboma"
+    },
+    "RightPeripheralRetinaColobomaLocation": {
+      "single": "Location"
+    },
+    "RightPeripheralRetinaChorioretinalMass": {
+      "single": "Chorioretinal Mass"
+    },
+    "RightPeripheralRetinaChorioretinalMassColor": {
+      "single": "Color"
+    },
+    "RightPeripheralRetinaChorioretinalMassSize": {
+      "single": "Size"
+    },
+    "RightPeripheralRetinaChorioretinalMassLocation": {
+      "single": "Location"
+    },
+    "RightPeripheralRetinaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1059": {
+    "RightTraumaticLesionsCommotioretinae": {
+      "single": "Commotio Retinae"
+    },
+    "RightTraumaticLesionsCommotioretinaeLocation": {
+      "single": "Location"
+    },
+    "RightTraumaticLesionsChoroidalRupture": {
+      "single": "Choroidal Rupture"
+    },
+    "RightTraumaticLesionsChoroidalRuptureLocation": {
+      "single": "Location"
+    },
+    "RightTraumaticLesionsSclopetaria": {
+      "single": "Sclopetaria"
+    },
+    "RightTraumaticLesionsSclopetariaLocation": {
+      "single": "Location"
+    },
+    "RightTraumaticLesionsIOFB": {
+      "single": "IOFB"
+    },
+    "RightTraumaticLesionsPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1060": {
+    "Retinaldiseases": {
+      "single": "Retinal Diseases"
+    },
+    "Cornealdiseases": {
+      "single": "Corneal Diseases"
+    },
+    "Eculoplasticdiseases": {
+      "single": "Eculoplastic Diseases"
+    },
+    "Strabismusdiseases": {
+      "single": "Strabismus Diseases"
+    },
+    "Emergencydiseases": {
+      "single": "Emergency Diseases"
+    },
+    "GlaucomaDiseases": {
+      "single": "Glaucoma Diseases"
+    },
+    "RetinalDiseasesplantitle": {
+      "single": "Retinal Diseases"
+    },
+    "RetinalDiseasesplanFollowUp": {
+      "single": "Follow-Up (Month)"
+    },
+    "RetinalDiseasesplanPRP": {
+      "single": "PRP"
+    },
+    "RetinalDiseasesplanAddPRP": {
+      "single": "Add PRP"
+    },
+    "RetinalDiseasesplanIntravitrealInjection": {
+      "single": "Intravitreal Injection"
+    },
+    "RetinalDiseasesplanMPC": {
+      "single": "MPC"
+    },
+    "RetinalDiseasesplanPDT": {
+      "single": "PDT"
+    },
+    "RetinalDiseasesplanParsPlanaVitrectomy": {
+      "single": "Pars Plana Vitrectomy"
+    },
+    "RetinalDiseasesplanIOPControl": {
+      "single": "IOP Control"
+    },
+    "RetinalDiseasesplanGasInjection": {
+      "single": "Gas Injection"
+    },
+    "RetinalDiseasesplantPA": {
+      "single": "tPA"
+    },
+    "RetinalDiseasesplanSponge": {
+      "single": "Sponge"
+    },
+    "RetinalDiseasesBandTire": {
+      "single": "Band &amp; Tire"
+    },
+    "RetinalDiseasesCryo": {
+      "single": "Cryo"
+    },
+    "RetinalDiseasesPlaqueTherapy": {
+      "single": "Plaque Therapy"
+    },
+    "RetinalDiseasesTTT": {
+      "single": "TTT"
+    },
+    "Glaucomadiseases": {
+      "single": "Glaucoma Diseases"
+    },
+    "GlaucomadiseasesFollowUp": {
+      "single": "Follow-Up"
+    },
+    "GlaucomadiseasesMedications": {
+      "single": "Medications"
+    },
+    "GlaucomadiseasesPhaco": {
+      "single": "Phaco"
+    },
+    "GlaucomadiseasesGATT": {
+      "single": "GATT"
+    },
+    "GlaucomadiseasesVSL": {
+      "single": "VSL"
+    },
+    "GlaucomadiseasesShunt": {
+      "single": "Shunt"
+    },
+    "GlaucomadiseasesNPGS": {
+      "single": "NPGS"
+    },
+    "GlaucomadiseasesNPGSDS": {
+      "single": "DS"
+    },
+    "GlaucomadiseasesNPGSViscocanalostomy": {
+      "single": "Viscocanalostomy"
+    },
+    "GlaucomadiseasesNPGSCanaloplasty": {
+      "single": "Canaloplasty"
+    },
+    "GlaucomadiseasesTrabeculectomy": {
+      "single": "Trabeculectomy"
+    },
+    "GlaucomadiseasesAngleSurgery": {
+      "single": "Angle Surgery"
+    },
+    "GlaucomadiseasesAngleSurgeryGoniotomy": {
+      "single": "Goniotomy"
+    },
+    "GlaucomadiseasesAngleSurgeryTbo": {
+      "single": "Tbo"
+    },
+    "GlaucomadiseasesCPC": {
+      "single": "CPC"
+    },
+    "GlaucomadiseasesECP": {
+      "single": "ECP"
+    },
+    "GlaucomadiseasesBlebRevision": {
+      "single": "Bleb Revision"
+    },
+    "GlaucomadiseasesTubeRevision": {
+      "single": "Tube Revision"
+    },
+    "PlanMedicationandFollowup": {
+      "single": "Medication and Follow-up"
+    },
+    "PlanGlassesPrescriptionandFollowup": {
+      "single": "Glasses Prescription and Follow-up"
+    },
+    "PlanParaclinicalRequests": {
+      "single": "Paraclinical Requests"
+    },
+    "PlanReferto": {
+      "single": "Refer to"
+    },
+    "PlanRefertoEmergencyDepartment": {
+      "single": "Anterior Segment"
+    },
+    "ophthalmologyPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1063": {
+    "StrabismusAbnormalHeadPositionNoAHP": {
+      "single": "No AHP"
+    },
+    "StrabismusAbnormalHeadPositionFaceTurn": {
+      "single": "Face Turn"
+    },
+    "StrabismusAbnormalHeadPositionHeadTilt": {
+      "single": "Head Tilt"
+    },
+    "StrabismusAbnormalHeadPositionChinUp": {
+      "single": "Chin Up"
+    },
+    "StrabismusAbnormalHeadPositionChinDown": {
+      "single": "Chin Down"
+    },
+    "StrabismusAbnormalHeadPositionPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1064": {
+    "StrabismusNystagmus": {
+      "single": "Nystagmus"
+    },
+    "StrabismusODOcularPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1065": {
+    "StrabismusDeviationOrthotropia": {
+      "single": "Orthotropia"
+    },
+    "StrabismusDeviationEsodeviation": {
+      "single": "Esodeviation"
+    },
+    "StrabismusDeviationEsodeviationCG": {
+      "single": "CG"
+    },
+    "StrabismusDeviationEsodeviationCGOrthotropia": {
+      "single": "Orthotropia/esophoria"
+    },
+    "StrabismusDeviationEsodeviationCGIntermittentET": {
+      "single": "Intermittent ET"
+    },
+    "StrabismusDeviationEsodeviationCGIntermittentETDominant": {
+      "single": "OD dominant"
+    },
+    "StrabismusDeviationEsodeviationCGConstantET": {
+      "single": "Constant ET"
+    },
+    "StrabismusDeviationEsodeviationCGConstantETET": {
+      "single": "RET"
+    },
+    "StrabismusDeviationEsodeviationCGConstantETAltET": {
+      "single": "Alt ET"
+    },
+    "StrabismusDeviationEsodeviationCGDeviometry": {
+      "single": "Deviometry"
+    },
+    "StrabismusDeviationEsodeviationSG": {
+      "single": "SG"
+    },
+    "StrabismusDeviationEsodeviationSGIntermittentET": {
+      "single": "Intermittent ET"
+    },
+    "StrabismusDeviationEsodeviationSGIntermittentETDominant": {
+      "single": "OD dominant"
+    },
+    "StrabismusDeviationEsodeviationSGConstantET": {
+      "single": "Constant ET"
+    },
+    "StrabismusDeviationEsodeviationSGConstantETET": {
+      "single": "RET"
+    },
+    "StrabismusDeviationEsodeviationSGConstantETAltET": {
+      "single": "Alt ET"
+    },
+    "StrabismusDeviationEsodeviationSGDeviometry": {
+      "single": "Deviometry"
+    },
+    "StrabismusDeviationExodeviation": {
+      "single": "Exodeviation"
+    },
+    "StrabismusDeviationExodeviationCG": {
+      "single": "CG"
+    },
+    "StrabismusDeviationExodeviationCGIntermittentXT": {
+      "single": "Intermittent XT"
+    },
+    "StrabismusDeviationExodeviationCGIntermittentXTDominant": {
+      "single": "OD dominant"
+    },
+    "StrabismusDeviationExodeviationCGConstantXT": {
+      "single": "Constant XT"
+    },
+    "StrabismusDeviationExodeviationCGConstantXTXT": {
+      "single": "RXT"
+    },
+    "StrabismusDeviationExodeviationCGConstantXTAltXT": {
+      "single": "Alt XT"
+    },
+    "StrabismusDeviationExodeviationCGDeviometry": {
+      "single": "Deviometry"
+    },
+    "StrabismusDeviationExodeviationSG": {
+      "single": "SG"
+    },
+    "StrabismusDeviationExodeviationSGIntermittentXT": {
+      "single": "Intermittent XT"
+    },
+    "StrabismusDeviationExodeviationSGIntermittentXTDominant": {
+      "single": "OD dominant"
+    },
+    "StrabismusDeviationExodeviationSGConstantXT": {
+      "single": "Constant XT"
+    },
+    "StrabismusDeviationExodeviationSGConstantXTXT": {
+      "single": "RXT"
+    },
+    "StrabismusDeviationExodeviationSGConstantXTAltXT": {
+      "single": "Alt XT"
+    },
+    "StrabismusDeviationExodeviationSGDeviometry": {
+      "single": "Deviometry"
+    },
+    "StrabismusDeviationVerticalDeviation": {
+      "single": "Vertical Deviation"
+    },
+    "StrabismusDeviationVerticalDeviationDeviometry": {
+      "single": "Deviometry"
+    },
+    "StrabismusDeviationDissociatedDeviation": {
+      "single": "Dissociated Deviation"
+    },
+    "StrabismusDeviationPattern": {
+      "single": "Pattern"
+    },
+    "StrabismusDeviationSpecialForms": {
+      "single": "Special forms"
+    },
+    "StrabismusDeviationWithoutGlassePhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1067": {
+    "StrabismusObliqueDysfunctionOD": {
+      "single": "Oblique dysfunction"
+    },
+    "StrabismusODEOMoveractionODIOOA": {
+      "single": "IOOA"
+    },
+    "StrabismusODEOMoveractionODSOOA": {
+      "single": "SOOA"
+    },
+    "StrabismusObliqueDysfunctionIOOA": {
+      "single": "IOUA"
+    },
+    "StrabismusObliqueDysfunctionSOOA": {
+      "single": "SOUA"
+    },
+    "StrabismusODEOMoveractionPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "StrabismusODOcularMovementLimitation": {
+      "single": "Ocular Movement Limitation"
+    },
+    "StrabismusODOcularMovementLimitationAbduction": {
+      "single": "Abduction"
+    },
+    "StrabismusODOcularMovementODLimitationAdduction": {
+      "single": "Adduction"
+    },
+    "StrabismusODOcularMovementODLimitationElevation": {
+      "single": "Elevation"
+    },
+    "StrabismusODOcularMovementODLimitationDepression": {
+      "single": "Depression"
+    },
+    "StrabismusODOcularMovementPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1068": {
+    "StrabismusOSObliqueDysfunction": {
+      "single": "Oblique dysfunction"
+    },
+    "StrabismusOSEOMoveractionIOOA": {
+      "single": "IOOA"
+    },
+    "StrabismusOSEOMoveractionSOOA": {
+      "single": "SOOA"
+    },
+    "StrabismusOSObliqueDysfunctionIOOA": {
+      "single": "IOUA"
+    },
+    "StrabismusOSObliqueDysfunctionSOOA": {
+      "single": "SOUA"
+    },
+    "StrabismusOSEOMoveractionPhysicianNote": {
+      "single": "Physician Note"
+    },
+    "StrabismusOSOcularMovementLimitation": {
+      "single": "Ocular Movement Limitation"
+    },
+    "StrabismusOSOcularMovementLimitationAbduction": {
+      "single": "Abduction"
+    },
+    "StrabismusOSOcularMovementODLimitationAdduction": {
+      "single": "Adduction"
+    },
+    "StrabismusOSOcularMovementODLimitationElevation": {
+      "single": "Elevation"
+    },
+    "StrabismusOSOcularMovementODLimitationDepression": {
+      "single": "Depression"
+    },
+    "StrabismusOSOcularPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1090": {
+    "LeftVitreousSyneresis": {
+      "single": "Syneresis"
+    },
+    "LeftVitreousPVD": {
+      "single": "PVD"
+    },
+    "LeftVitreousWeisRing": {
+      "single": "Weis Ring"
+    },
+    "LeftVitreousVitreousHemorrhage": {
+      "single": "Vitreous Hemorrhage"
+    },
+    "LeftVitreousVitreousOrganization": {
+      "single": "Vitreous Organization"
+    },
+    "LeftVitreousVitreousOpacity": {
+      "single": "Vitreous Opacity"
+    },
+    "LeftVitreousShafersSign": {
+      "single": "Shafers Sign"
+    },
+    "LeftVitreousVitritis": {
+      "single": "Vitritis"
+    },
+    "LeftVitreousAsteroidHyalosis": {
+      "single": "Asteroid Hyalosis"
+    },
+    "LeftVitreousPersistentFetalVasculaturePFVPHPV": {
+      "single": "Persistent Fetal Vasculature (PFV/PHPV)"
+    },
+    "LeftVitreousSiliconeOilfilled": {
+      "single": "Silicone Oil-filled"
+    },
+    "LeftVitreousGasBubble": {
+      "single": "Gas Bubble"
+    },
+    "LeftVitreousPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1091": {
+    "LeftOpticDiscColor": {
+      "single": "Color"
+    },
+    "LeftOpticDiscCupDiscRatio": {
+      "single": "Cup Disc Ratio"
+    },
+    "LeftOpticDiscCupDiscRatioCup": {
+      "single": "Cup Size"
+    },
+    "LeftOpticDiscNeuroretinalRimThinning": {
+      "single": "Neuroretinal Rim Thinning (Notch)"
+    },
+    "LeftOpticDiscNFLDefect": {
+      "single": "NFL Defect"
+    },
+    "LeftOpticDiscOpticDiscHemorrhage": {
+      "single": "Optic Disc Hemorrhage"
+    },
+    "LeftOpticDiscNasalizationoftheVessels": {
+      "single": "Nasalization of the Vessels"
+    },
+    "LeftOpticDiscSize": {
+      "single": "Size"
+    },
+    "LeftOpticDiscHypoplasticDisc": {
+      "single": "Hypoplastic Disc"
+    },
+    "LeftOpticDiscOpticDiscAvulsion": {
+      "single": "Optic Disc Avulsion"
+    },
+    "LeftOpticDiscOpticDiscColoboma": {
+      "single": "Optic Disc Coloboma"
+    },
+    "LeftOpticDiscMorningGlory": {
+      "single": "Morning Glory"
+    },
+    "LeftOpticDiscTiltedDisc": {
+      "single": "Tilted Disc"
+    },
+    "LeftOpticDiscOpticDiscSwelling": {
+      "single": "Optic Disc Swelling"
+    },
+    "LeftOpticDiscOpticDiscDrusen": {
+      "single": "Optic Disc Drusen"
+    },
+    "LeftOpticDiscPeripapillaryAtrophy": {
+      "single": "Peripapillary Atrophy"
+    },
+    "LeftOpticDiscPeripapillaryScar": {
+      "single": "Peripapillary Scar"
+    },
+    "LeftOpticDiscWeissRing": {
+      "single": "Weiss Ring"
+    },
+    "LeftOpticDiscMyopicCrescent": {
+      "single": "Myopic Crescent"
+    },
+    "LeftOpticDiscNeovascularizationattheDisc": {
+      "single": "Neovascularization at the Disc (NVD)"
+    },
+    "LeftOpticDiscPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1092": {
+    "LeftVitreoretinalInterfaceEpiretinalMembrane": {
+      "single": "Epiretinal Membrane (ERM)"
+    },
+    "LeftVitreoretinalInterfaceFullThicknessMacularHole": {
+      "single": "Full-Thickness Macular Hole (FTMH)"
+    },
+    "LeftVitreoretinalInterfacePhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1093": {
+    "LeftVascularSystemArterialNarrowing": {
+      "single": "Arterial Narrowing"
+    },
+    "LeftVascularSystemVenousTortuosity": {
+      "single": "Venous Tortuosity"
+    },
+    "LeftVascularSystemAVnicking": {
+      "single": "AV-nicking"
+    },
+    "LeftVascularSystemVenousBeading": {
+      "single": "Venous Beading"
+    },
+    "LeftVascularSystemOccludedVessels": {
+      "single": "Occluded Vessels (Non-Perfusion Area)"
+    },
+    "LeftVascularSystemLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemLocationMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemVascularSheathing": {
+      "single": "Vascular Sheathing"
+    },
+    "LeftVascularSystemBRVO": {
+      "single": "BRVO"
+    },
+    "LeftVascularSystemCRVO": {
+      "single": "CRVO"
+    },
+    "LeftVascularSystemHemiRVO": {
+      "single": "Hemi-RVO"
+    },
+    "LeftVascularSystemBRAO": {
+      "single": "BRAO"
+    },
+    "LeftVascularSystemCilioretinalArteryOcclusion": {
+      "single": "Cilioretinal Artery Occlusion"
+    },
+    "LeftVascularSystemCRAOwithSparedCilioretinalArtery": {
+      "single": "CRAO with Spared Cilioretinal Artery"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidHemorrhage": {
+      "single": "Subhyaloid Hemorrhage"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalHemorrhage": {
+      "single": "Preretinal Hemorrhage"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemCilioretinalArterySubhyaloidPreretinalMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemIntraretinalHemorrhage": {
+      "single": "Intraretinal Hemorrhage"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemIntraretinalHemorrhageLocationMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemSubretinalHemorrhage": {
+      "single": "Subretinal Hemorrhage"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemSubretinalHemorrhageLocationMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemMacroaneurysm": {
+      "single": "Macroaneurysm"
+    },
+    "LeftVascularSystemMicroaneurysm": {
+      "single": "Microaneurysm"
+    },
+    "LeftVascularSystemMicroaneurysmLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemMicroaneurysmLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemMicroaneurysmLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemMicroaneurysmLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemMicroaneurysmLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemMicroaneurysmLocationMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemITelangiectasia": {
+      "single": "Telangiectasia"
+    },
+    "LeftVascularSystemIntraretinalMicrovascularAbnormality": {
+      "single": "Intraretinal Microvascular Abnormality (IRMA)"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhere": {
+      "single": "Neovascularization of the Retina Elsewhere (NVE)"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereSize": {
+      "single": "Size"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocation": {
+      "single": "Location"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocationSuperotemporal": {
+      "single": "Superotemporal"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocationInferotemporal": {
+      "single": "Inferotemporal"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocationInferonasal": {
+      "single": "Inferonasal"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocationSuperonasal": {
+      "single": "Superonasal"
+    },
+    "LeftVascularSystemNeovascularizationoftheretinaelsewhereLocationMacular": {
+      "single": "Macular"
+    },
+    "LeftVascularSystemRetinopathyofPrematurity": {
+      "single": "Retinopathy of Prematurity (ROP)"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityBirthWeightinGram500ramsto4500Grams": {
+      "single": "Birth Weight in Grams"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityGestationalAgeinWeeks22to40": {
+      "single": "Gestational Age in Weeks: 22 to 40"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityPlus": {
+      "single": "Plus"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityPreplus": {
+      "single": "Pre-plus"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityNoPlus": {
+      "single": "No Plus"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityZone": {
+      "single": "Zone"
+    },
+    "LeftVascularSystemRetinopathyofPrematurityStage": {
+      "single": "Stage"
+    },
+    "LeftVascularSystemPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1094": {
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachment": {
+      "single": "Rhegmatogenous Retinal Detachment (RRD)"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentMaculaon": {
+      "single": "Macula-on"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentMaculaoff": {
+      "single": "Macula-off"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentSuperior": {
+      "single": "Superior"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentInferior": {
+      "single": "Inferior"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentNasal": {
+      "single": "Nasal"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentTemporal": {
+      "single": "Temporal"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentTotal": {
+      "single": "Total"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathy3val": {
+      "single": "Proliferative Vitreoretinopathy (PVR)"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathy": {
+      "single": "A"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathyCA": {
+      "single": "CA تا"
+    },
+    "LeftPeripheralRetinaRhegmatogenousRetinalDetachmentProliferativeVitreoretinopathyCP": {
+      "single": "CP تا"
+    },
+    "LeftPeripheralRetinaTractionalRetinalDetachment": {
+      "single": "Tractional Retinal Detachment"
+    },
+    "LeftPeripheralRetinaSerousRetinalDetachment": {
+      "single": "Serous Retinal Detachment"
+    },
+    "LeftPeripheralRetinaRetinoschisis": {
+      "single": "Retinoschisis"
+    },
+    "LeftPeripheralRetinaHorseshoeTear": {
+      "single": "Horse-shoe Tear"
+    },
+    "LeftPeripheralRetinaHorseshoeTearclockrange": {
+      "single": "Horse-shoe Tear تا"
+    },
+    "LeftPeripheralRetinaGiantTear": {
+      "single": "Giant Tear"
+    },
+    "LeftPeripheralRetinaGiantTearclockrange": {
+      "single": "Giant Tear تا"
+    },
+    "LeftPeripheralRetinaAtrophicHole": {
+      "single": "Atrophic Hole"
+    },
+    "LeftPeripheralRetinaAtrophicHoleclockrange": {
+      "single": "Atrophic Hole تا"
+    },
+    "LeftPeripheralRetinaLatticeDegeneration": {
+      "single": "Lattice Degeneration"
+    },
+    "LeftPeripheralRetinaLatticeDegenerationclockrange": {
+      "single": "Lattice Degeneration تا"
+    },
+    "LeftPeripheralRetinaPavingStoneDegeneration": {
+      "single": "Paving-Stone Degeneration"
+    },
+    "LeftPeripheralRetinaPavingStoneDegenerationclockrange": {
+      "single": "Paving-Stone Degeneration تا"
+    },
+    "LeftPeripheralRetinaBoneSpicules": {
+      "single": "Bone Spicules"
+    },
+    "LeftPeripheralRetinaPavingBuckleEffect": {
+      "single": "Buckle Effect"
+    },
+    "LeftPeripheralRetinaPavingBuckleEffectclockrange": {
+      "single": "Buckle Effect تا"
+    },
+    "LeftPeripheralRetinaPavingLaserScar": {
+      "single": "Laser Scar"
+    },
+    "LeftPeripheralRetinaLaserScarRetinaPanretinalPhotocoagulationScar": {
+      "single": "Pan-retinal Photocoagulation Scar (PRP)"
+    },
+    "LeftPeripheralRetinaLaserScarMacularPhotocoagulation": {
+      "single": "Macular Photocoagulation"
+    },
+    "LeftPeripheralRetinaTargetedRetinalPhotocoagulationScar": {
+      "single": "Targeted Retinal Photocoagulation Scar (TRP)"
+    },
+    "LeftPeripheralRetinaTargetedRetinalPhotocoagulationScarLocation": {
+      "single": "Location"
+    },
+    "LeftPeripheralRetinaColoboma": {
+      "single": "Coloboma"
+    },
+    "LeftPeripheralRetinaColobomaLocation": {
+      "single": "Location"
+    },
+    "LeftPeripheralRetinaChorioretinalMass": {
+      "single": "Chorioretinal Mass"
+    },
+    "LeftPeripheralRetinaChorioretinalMassColor": {
+      "single": "Color"
+    },
+    "LeftPeripheralRetinaChorioretinalMassSize": {
+      "single": "Size"
+    },
+    "LeftPeripheralRetinaChorioretinalMassLocation": {
+      "single": "Location"
+    },
+    "LeftPeripheralRetinaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1095": {
+    "LeftTraumaticLesionsCommotioretinae": {
+      "single": "Commotio Retinae"
+    },
+    "LeftTraumaticLesionsCommotioretinaeLocation": {
+      "single": "Location"
+    },
+    "LeftTraumaticLesionsChoroidalRupture": {
+      "single": "Choroidal Rupture"
+    },
+    "LeftTraumaticLesionsChoroidalRuptureLocation": {
+      "single": "Location"
+    },
+    "LeftTraumaticLesionsSclopetaria": {
+      "single": "Sclopetaria"
+    },
+    "LeftTraumaticLesionsSclopetariaLocation": {
+      "single": "Location"
+    },
+    "LeftTraumaticLesionsIOFB": {
+      "single": "IOFB"
+    },
+    "LeftTraumaticLesionsPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1096": {
+    "LeftMaculaMacularVitelliformLesion": {
+      "single": "Macular Vitelliform Lesion"
+    },
+    "LeftMaculaPigmentEpithelialDetachment": {
+      "single": "Pigment Epithelial Detachment (PED)"
+    },
+    "LeftMaculaCNV": {
+      "single": "CNV"
+    },
+    "LeftMaculaPigmentaryChange": {
+      "single": "Pigmentary Change"
+    },
+    "LeftMaculaGeographicAtrophy": {
+      "single": "Geographic Atrophy"
+    },
+    "LeftMaculaMacularEdema": {
+      "single": "Macular Edema"
+    },
+    "LeftMaculaMacularExudate": {
+      "single": "Macular Exudate"
+    },
+    "LeftMaculaSubretinalFluid": {
+      "single": "Subretinal Fluid"
+    },
+    "LeftMaculaDrusen": {
+      "single": "Drusen"
+    },
+    "LeftMaculaScar": {
+      "single": "Scar"
+    },
+    "LeftMaculaChorioretinalAtrophy": {
+      "single": "Chorioretinal Atrophy"
+    },
+    "LeftMaculaReducedFovealReflex": {
+      "single": "Reduced Foveal Reflex"
+    },
+    "LeftMaculaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1097": {
+    "LeftODConjunctivaandScleraConjunctivochalasis": {
+      "single": "Conjunctivochalasis"
+    },
+    "LeftODConjunctivaandScleraConjuntivalInjection": {
+      "single": "Conjuntival Injection"
+    },
+    "LeftODConjunctivaandScleraDischarge": {
+      "single": "Discharge"
+    },
+    "LeftODConjunctivaandScleraPinguecula": {
+      "single": "Pinguecula"
+    },
+    "LeftODConjunctivaandScleraPterygium": {
+      "single": "Pterygium"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesion": {
+      "single": "Conjuctival Lesion"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionPigmented": {
+      "single": "Pigmented"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionElevated": {
+      "single": "Elevated"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionLeukoplakic": {
+      "single": "Leukoplakic"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionGelatinous": {
+      "single": "Gelatinous"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionCystic": {
+      "single": "Cystic"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionScar": {
+      "single": "Scar"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionBleb": {
+      "single": "Bleb"
+    },
+    "LeftODConjunctivaandScleraConjuctivalLesionSentinelVessels": {
+      "single": "Sentinel Vessels"
+    },
+    "LeftODConjunctivaandScleraSubConjunctivalHemorrhage": {
+      "single": "Sub Conjunctival Hemorrhage"
+    },
+    "LeftODConjunctivaandScleraConjunctivalLaceration": {
+      "single": "Conjunctival Laceration"
+    },
+    "LeftODConjunctivaandScleraConjunctivalLacerationSize": {
+      "single": "Size"
+    },
+    "LeftODConjunctivaandScleraScleralLaceration": {
+      "single": "Scleral Laceration"
+    },
+    "LeftODConjunctivaandScleraScleralLacerationSize": {
+      "single": "Size"
+    },
+    "LeftODConjunctivaandScleraEpiscleralInjection": {
+      "single": "Episcleral Injection"
+    },
+    "LeftODConjunctivaandScleraScleralThinning": {
+      "single": "Scleral Thinning"
+    },
+    "LeftODConjunctivaandScleraPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1098": {
+    "LeftODCorneaOpacity3val": {
+      "single": "Opacity"
+    },
+    "LeftODCorneaOpacity": {
+      "single": "Superficial"
+    },
+    "LeftODCorneaVascularization3val": {
+      "single": "Vascularization"
+    },
+    "LeftODCorneaVascularization": {
+      "single": "Peripheral"
+    },
+    "LeftODCorneaInfiltration3val": {
+      "single": "Infiltration"
+    },
+    "LeftODCorneaInfiltration": {
+      "single": "Superficial"
+    },
+    "LeftODCorneaEndothelialPlaque": {
+      "single": "Endothelial Plaque"
+    },
+    "LeftODCorneaGuttata3val": {
+      "single": "Guttata"
+    },
+    "LeftODCorneaGuttata": {
+      "single": "Peripheral"
+    },
+    "LeftODCorneaEdema3val": {
+      "single": "Edema"
+    },
+    "LeftODCorneaEdema": {
+      "single": "Stromal"
+    },
+    "LeftODCorneaLipidKeratopathy": {
+      "single": "Lipid Keratopathy"
+    },
+    "LeftODCorneaBandKeratopathy": {
+      "single": "Band Keratopathy"
+    },
+    "LeftODCorneaHaabStriae": {
+      "single": "Haabs Striae"
+    },
+    "LeftODCorneaMegalocornea": {
+      "single": "Megalocornea"
+    },
+    "LeftODCorneaMicrocornea": {
+      "single": "Microcornea"
+    },
+    "LeftODCorneaLaceration": {
+      "single": "Laceration"
+    },
+    "LeftODCorneaLocation3val": {
+      "single": "Location"
+    },
+    "LeftODCorneaLocationSclera": {
+      "single": "Sclera"
+    },
+    "LeftODCorneaLocationCornea3val": {
+      "single": "Cornea"
+    },
+    "LeftODCorneaLocationCornea": {
+      "single": "Para Center"
+    },
+    "LeftODCorneaLocationCorneasize": {
+      "single": "Size"
+    },
+    "LeftODCorneaUvealProlapse": {
+      "single": "Uveal Prolapse"
+    },
+    "LeftODCorneaZone": {
+      "single": "Zone"
+    },
+    "LeftODCorneaAbrasion": {
+      "single": "Abrasion"
+    },
+    "LeftODCorneaCornealEpithelialDefect": {
+      "single": "Corneal Epithelial Defect"
+    },
+    "LeftODCorneaCornealEpithelialDefectLocation": {
+      "single": "Location"
+    },
+    "LeftODCorneaCornealEpithelialDefectSize": {
+      "single": "Size"
+    },
+    "leftOSCorneaPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1099": {
+    "LeftIrisNVI": {
+      "single": "NVI"
+    },
+    "LeftIrisAtrophy": {
+      "single": "Iris Atrophy"
+    },
+    "LeftIrisIrisBombe": {
+      "single": "Iris Bombe"
+    },
+    "LeftIrisHeterochromia": {
+      "single": "Heterochromia"
+    },
+    "LeftIrisIridodialysis": {
+      "single": "Iridodialysis"
+    },
+    "LeftIrisNevus": {
+      "single": "Nevus"
+    },
+    "LeftIrisPosteriorSynechia": {
+      "single": "Posterior Synechia (PS)"
+    },
+    "LeftIrisIrisProlapse": {
+      "single": "Iris Prolapse"
+    },
+    "LeftIrisrisLaceration": {
+      "single": "Iris Laceration"
+    },
+    "LeftIrisAniridia": {
+      "single": "Aniridia"
+    },
+    "LeftIrisColoboma": {
+      "single": "Coloboma"
+    },
+    "LeftIrisPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1100": {
+    "LeftPupilCorectopia": {
+      "single": "Corectopia"
+    },
+    "LeftPupilSluggishPupil": {
+      "single": "Sluggish Pupil"
+    },
+    "LeftPupilSphincterRupture": {
+      "single": "Sphincter Rupture"
+    },
+    "LeftPupilRAPD": {
+      "single": "RAPD"
+    },
+    "LeftPupilAnisocoria": {
+      "single": "Anisocoria"
+    },
+    "LeftPupilPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1101": {
+    "LeftAnterioChamberACReaction": {
+      "single": "AC Reaction"
+    },
+    "LeftAnterioChamberHypopyon": {
+      "single": "Hypopyon"
+    },
+    "LeftAnterioChamberHyphema": {
+      "single": "Clot Hyphema"
+    },
+    "LeftAnterioChamberMicroscopicHyphema": {
+      "single": "Microscopic Hyphema"
+    },
+    "LeftAnterioChamberKeraticPrecipitate": {
+      "single": "Keratic Precipitate"
+    },
+    "LeftAnterioChamberKeraticPrecipitateMuttonFat": {
+      "single": "Mutton Fat"
+    },
+    "LeftAnterioChamberKeraticPrecipitateFine": {
+      "single": "Fine"
+    },
+    "LeftAnterioChamberKeraticPrecipitatePigmentedKP": {
+      "single": "Pigmented KP"
+    },
+    "LeftAnterioChamberKeraticPrecipitateDiffuseKP": {
+      "single": "Diffuse KP"
+    },
+    "LeftAnterioChamberShallowAC": {
+      "single": "Shallow AC"
+    },
+    "LeftAnterioChamberPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1102": {
+    "LeftCrystallineLensCataract": {
+      "single": "Cataract"
+    },
+    "LeftCrystallineLensCataractNuclearSclerosing": {
+      "single": "Nuclear Sclerosing"
+    },
+    "LeftCrystallineLensCataractBrunescent": {
+      "single": "Brunescent"
+    },
+    "LeftCrystallineLensCataractMature": {
+      "single": "Mature"
+    },
+    "LeftCrystallineLensCataractIntumescent": {
+      "single": "Intumescent"
+    },
+    "LeftCrystallineLensCataractIntumescentPosteriorSubcapsularCataract": {
+      "single": "Posterior Subcapsular Cataract"
+    },
+    "LeftCrystallineLensCataractCorticalCataract": {
+      "single": "Cortical Cataract"
+    },
+    "LeftCrystallineLensCataractAnteriorPolarCataract": {
+      "single": "Anterior Polar Cataract"
+    },
+    "LeftCrystallineLensCataractPosteriorPolarCataract": {
+      "single": "Posterior Polar Cataract"
+    },
+    "LeftCrystallineLensCataractCongenital": {
+      "single": "Congenital"
+    },
+    "LeftCrystallineLensCataractTraumatilCataract": {
+      "single": "Traumatic Cataract"
+    },
+    "LeftCrystallineLensLenticonus": {
+      "single": "Lenticonus"
+    },
+    "LeftCrystallineLensMittendorfDot": {
+      "single": "Mittendorf Dot"
+    },
+    "LeftCrystallineLensCrystallineLensSubluxation": {
+      "single": "Crystalline Lens Subluxation"
+    },
+    "LeftCrystallineLensCrystallineLensDislocation": {
+      "single": "Crystalline Lens Dislocation"
+    },
+    "LeftCrystallineLensZonulysis": {
+      "single": "Zonulysis"
+    },
+    "LeftCrystallineLensPhacodonesis": {
+      "single": "Phacodonesis"
+    },
+    "LeftCrystallineLensPseudophakic": {
+      "single": "Pseudophakic"
+    },
+    "LeftCrystallineLensBiphakic": {
+      "single": "Biphakic"
+    },
+    "LeftCrystallineLensAphakia": {
+      "single": "Aphakia"
+    },
+    "LeftCrystallineLensPCO": {
+      "single": "PCO"
+    },
+    "LeftCrystallineLensCapsularPhimosis": {
+      "single": "Capsular Phimosis"
+    },
+    "LeftCrystallineLensSubluxedIOL": {
+      "single": "Subluxed IOL"
+    },
+    "LeftCrystallineLensIOLDislocation": {
+      "single": "IOL Dislocation"
+    },
+    "LeftCrystallineLensIOLOpacity": {
+      "single": "IOL Opacity"
+    },
+    "LeftCrystallineLensIOLCapture": {
+      "single": "IOL Capture"
+    },
+    "LeftCrystallineLensPseudoexfoliation": {
+      "single": "Pseudoexfoliation (PEX)"
+    },
+    "LeftCrystallineLensPhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1103": {
+    "LeftIOP": {
+      "single": "IOP"
+    },
+    "LeftIOPsize": {
+      "single": "(mmHg)"
+    },
+    "LeftIOPOffwithMedication": {
+      "single": "Off Medication"
+    },
+    "LeftIOPWithMedicationsTimolol": {
+      "single": "Timolol"
+    },
+    "LeftIOPWithMedicationsDorzolamide": {
+      "single": "Dorzolamide"
+    },
+    "LeftIOPWithMedicationsBrimonidine": {
+      "single": "Brimonidine"
+    },
+    "LeftIOPWithMedicationsLatanoprost": {
+      "single": "Latanoprost"
+    },
+    "LeftIOPWithMedicationsBetaxolol": {
+      "single": "Betaxolol"
+    },
+    "LeftIOPWithMedicationsFixedCombinationofTimololandDorzolamide": {
+      "single": "Fixed Combination of Timolol and Dorzolamide"
+    },
+    "LeftIOPWithMedicationsFixedCombinationofTimololandLatanoprost": {
+      "single": "Fixed Combination of Timolol and Latanoprost"
+    },
+    "LeftIOPWithMedicationsPilocarpine": {
+      "single": "Pilocarpine"
+    },
+    "LeftIOPWithMedicationsPilocarpineTimeExamination": {
+      "single": "Time of Examination"
+    },
+    "LeftIOPAngle": {
+      "single": "Angle"
+    },
+    "LeftIOPAngleVanHerickMethod": {
+      "single": "Van Herick Method"
+    },
+    "LeftIOPAnglePeripheralAnteriorSynechiae": {
+      "single": "Peripheral Anterior Synechiae (PAS)"
+    },
+    "LeftIOPAnglePhycianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1104": {
+    "leftUppereyelidODMRD1": {
+      "single": "MRD1 (mm)"
+    },
+    "leftUppereyelidODPtosis": {
+      "single": "Ptosis"
+    },
+    "leftUppereyelidODPtosisLevatorFunction": {
+      "single": "Levator Function"
+    },
+    "leftUppereyelidODCrease": {
+      "single": "Crease"
+    },
+    "leftUppereyelidODCreaseSize": {
+      "single": "Size"
+    },
+    "leftUppereyelidODRetraction": {
+      "single": "Retraction"
+    },
+    "leftUppereyelidODLagophthalmos": {
+      "single": "Lagophthalmos"
+    },
+    "leftUppereyelidODLidLagDownGaze": {
+      "single": "Lid Lag in Down Gaze"
+    },
+    "leftUppereyelidODEctropion": {
+      "single": "Ectropion"
+    },
+    "leftUppereyelidODEntropion": {
+      "single": "Entropion"
+    },
+    "leftUppereyelidODTrichiasis": {
+      "single": "Trichiasis"
+    },
+    "leftuppereyelidODDistichiasis": {
+      "single": "Distichiasis"
+    },
+    "leftuppereyelidODEdema": {
+      "single": "Edema"
+    },
+    "leftuppereyelidODErythema": {
+      "single": "Erythema"
+    },
+    "leftuppereyelidODMeibomianGlandPlugging": {
+      "single": "Meibomian Gland Plugging"
+    },
+    "leftuppereyelidODLaceration": {
+      "single": "Laceration"
+    },
+    "leftuppereyelidODLacerationUpperLocation": {
+      "single": "Location"
+    },
+    "leftuppereyelidODLacerationUpperSize": {
+      "single": "Size"
+    },
+    "leftuppereyelidODDeformity": {
+      "single": "Deformity"
+    },
+    "leftuppereyelidODScar": {
+      "single": "Scar"
+    },
+    "leftuppereyelidODDermatochalasis": {
+      "single": "Dermatochalasis"
+    },
+    "leftuppereyelidODEcchymosis": {
+      "single": "Ecchymosis"
+    },
+    "leftuppereyelidODAbrasion": {
+      "single": "Abrasion"
+    },
+    "leftuppereyelidODMass": {
+      "single": "Mass"
+    },
+    "leftuppereyelidODMassUpperLocation": {
+      "single": "Location"
+    },
+    "leftuppereyelidODMassUpperType": {
+      "single": "Type"
+    },
+    "leftuppereyelidODMassUpperSize": {
+      "single": "Size (mm)"
+    },
+    "leftuppereyelidODMassUpperColor": {
+      "single": "Color"
+    },
+    "leftuppereyelidODInitialDiagnosis": {
+      "single": "Initial Diagnosis"
+    },
+    "leftuppereyelidODInitialDiagnosisBenign": {
+      "single": "Benign"
+    },
+    "leftuppereyelidODInitialDiagnosisHemangioma": {
+      "single": "Hemangioma"
+    },
+    "leftuppereyelidODInitiaDiagnosisPlexiformNeurofibroma": {
+      "single": "Plexiform Neurofibroma"
+    },
+    "leftuppereyelidODInitialDiagnosisOther": {
+      "single": "Other"
+    },
+    "leftuppereyelidODInitialDiagnosisMalignant": {
+      "single": "Malignant"
+    },
+    "leftuppereyelidODInitialDiagnosisMalignantBCC": {
+      "single": "BCC"
+    },
+    "leftuppereyelidODInitialDiagnosisMalignantOther": {
+      "single": "Other"
+    },
+    "leftuppereyelidPhysicianNotelabel": {
+      "single": "Physician Note"
+    }
+  },
+  "1105": {
+    "lefteyebrowEyebrowPtosis": {
+      "single": "Eyebrow Ptosis"
+    },
+    "lefteyebrowElevatedEyelid": {
+      "single": "Elevated Eyebrow"
+    },
+    "lefteyebrowLaceration": {
+      "single": "Laceration"
+    },
+    "lefteyebrowLacerationLocation": {
+      "single": "Location"
+    },
+    "lefteyebrowLacerationLocationMedial": {
+      "single": "Medial"
+    },
+    "lefteyebrowLacerationLocationCentral": {
+      "single": "Central"
+    },
+    "lefteyebrowLacerationLocationLateral": {
+      "single": "Lateral"
+    },
+    "lefteyebrowLacerationSize": {
+      "single": "Size"
+    },
+    "lefteyebrowphysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1106": {
+    "LeftLacrimalsystemEpiphora": {
+      "single": "Epiphora"
+    },
+    "LeftLacrimalsystemEpiphoraPusReflux": {
+      "single": "Pus Reflux"
+    },
+    "LeftLacrimalsystemEpiphoraIrrigationTest": {
+      "single": "Irrigation Test"
+    },
+    "LeftLacrimalsystemEpiphoraProbingofUpperSystem": {
+      "single": "Probing of Upper System"
+    },
+    "LeftLacrimalsystemEpiphoraProbingofUpperSystemDyeDisappearancetest": {
+      "single": "Dye Disappearance Test"
+    },
+    "LeftPunctaandcanaliculi": {
+      "single": "Puncta and Canaliculi"
+    },
+    "LacrimalsystemphysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1107": {
+    "GlobeProptosis": {
+      "single": "Proptosis"
+    },
+    "GlobeEnophthalmos": {
+      "single": "Enophthalmos"
+    },
+    "GlobeMicrophthalmia": {
+      "single": "Microphthalmia"
+    },
+    "GlobeGlobeDystopia": {
+      "single": "Globe Dystopia"
+    },
+    "GlobeGlobeDystopiaUp": {
+      "single": "Up"
+    },
+    "GlobeGlobeDystopiaDown": {
+      "single": "Down"
+    },
+    "GlobeGlobeDystopiaMedial": {
+      "single": "Medial"
+    },
+    "GlobeGlobeDystopiaLateral": {
+      "single": "Lateral"
+    },
+    "GlobeAnophthalmicSocket": {
+      "single": "Anophthalmic Socket"
+    },
+    "GlobeAnophthalmicSocketDischarge": {
+      "single": "Discharge"
+    },
+    "GlobeContractedFornix": {
+      "single": "Contracted Fornix"
+    },
+    "GlobeContractedFornixUpper": {
+      "single": "Upper"
+    },
+    "GlobeContractedFornixLower": {
+      "single": "Lower"
+    },
+    "GlobeContractedExposedImplant": {
+      "single": "Exposed Implant"
+    },
+    "LeftGlobephysiciannote": {
+      "single": "Physician Note"
+    }
+  },
+  "1108": {
+    "leftlowereyelidODMRD2": {
+      "single": "MRD2 (mm)"
+    },
+    "leftlowereyelidODRetraction": {
+      "single": "Retraction"
+    },
+    "leftlowereyelidODEctropion": {
+      "single": "Ectropion"
+    },
+    "leftlowereyelidODEntropion": {
+      "single": "Entropion"
+    },
+    "leftlowereyelidODTrichiasis": {
+      "single": "Trichiasis"
+    },
+    "leftlowereyelidODDistichiasis": {
+      "single": "Distichiasis"
+    },
+    "leftlowereyelidODEdema": {
+      "single": "Edema"
+    },
+    "leftlowereyelidODErythema": {
+      "single": "Erythema"
+    },
+    "leftlowereyelidODMeibomianGlandPlugging": {
+      "single": "Meibomian Gland Plugging"
+    },
+    "leftlowereyelidODLaceration": {
+      "single": "Laceration"
+    },
+    "leftlowereyelidODLacerationUpperLocation": {
+      "single": "Location"
+    },
+    "leftlowereyelidODLacerationUpperSize": {
+      "single": "Size"
+    },
+    "leftlowereyelidODDeformity": {
+      "single": "Deformity"
+    },
+    "leftlowereyelidODScar": {
+      "single": "Scar"
+    },
+    "leftlowereyelidODDermatochalasis": {
+      "single": "Dermatochalasis"
+    },
+    "leftlowereyelidODEcchymosis": {
+      "single": "Ecchymosis"
+    },
+    "leftlowereyelidODAbrasion": {
+      "single": "Abrasion"
+    },
+    "leftlowereyelidODMass": {
+      "single": "Mass"
+    },
+    "leftlowereyelidODMassUpperLocation": {
+      "single": "Location"
+    },
+    "leftlowereyelidODMassUpperType": {
+      "single": "Type"
+    },
+    "leftlowereyelidODMassUpperSize": {
+      "single": "Size (mm)"
+    },
+    "leftlowereyelidODMassUpperColor": {
+      "single": "Color"
+    },
+    "leftlowereyelidODInitialDiagnosis": {
+      "single": "Initial Diagnosis"
+    },
+    "leftlowereyelidODInitialDiagnosisBenign": {
+      "single": "Benign"
+    },
+    "leftlowereyelidODInitialDiagnosisHemangioma": {
+      "single": "Hemangioma"
+    },
+    "leftlowereyelidODInitiaDiagnosisPlexiformNeurofibroma": {
+      "single": "Plexiform Neurofibroma"
+    },
+    "leftlowereyelidODInitialDiagnosisOther": {
+      "single": "Other"
+    },
+    "leftlowereyelidODInitialDiagnosisMalignant": {
+      "single": "Malignant"
+    },
+    "leftlowereyelidODInitialDiagnosisMalignantBCC": {
+      "single": "BCC"
+    },
+    "leftlowereyelidODInitialDiagnosisMalignantOther": {
+      "single": "Other"
+    },
+    "leftlowereyelidPhysicianNote": {
+      "single": "Physician Note"
+    }
+  },
+  "1196": {
+    "patientslocalfullname": {
+      "single": "Patient Name"
+    },
+    "patientsnationalcode": {
+      "single": "National Code"
+    },
+    "patientssex": {
+      "single": "Sex"
+    },
+    "patientsfathername": {
+      "single": "Father's Name"
+    },
+    "patientsDOB": {
+      "single": "DOB"
+    },
+    "VisitDate": {
+      "single": "Visit Date"
+    },
+    "patientsmobile": {
+      "single": "Mobile NO"
+    },
+    "participants": {
+      "single": "Persons"
+    },
+    "questionercode": {
+      "single": "Questioner Code"
+    },
+    "visitsoutsourceid": {
+      "single": "Admision Number"
+    },
+    "patientshospitalID": {
+      "single": "Identification Number"
+    },
+    "EMRHistory": {
+      "single": "EMR History"
+    }
+  },
+  "1264": {
+    "ODRetinaldiseasesDiabeticRetinopathy": {
+      "single": "Diabetic Retinopathy"
+    },
+    "ODRetinaldiseasesDystrophiesandDegenerations": {
+      "single": "Dystrophies and Degenerations"
+    },
+    "ODRetinaldiseasesAMD": {
+      "single": "AMD"
+    },
+    "ODRetinaldiseasesPediatricRetina": {
+      "single": "Pediatric Retina"
+    },
+    "ODRetinaldiseasesUveitis": {
+      "single": "Uveitis"
+    },
+    "ODRetinaldiseasesPachychoroid": {
+      "single": "Pachychoroid"
+    },
+    "ODRetinaldiseasesOncology": {
+      "single": "Oncology"
+    },
+    "ODRetinaldiseasesVitreoretinalInterface": {
+      "single": "Vitreoretinal Interface"
+    },
+    "ODRetinaldiseasesMyopicRetinopathy": {
+      "single": "Myopic Retinopathy"
+    },
+    "ODRetinaldiseasesRetinalVascularDisorders": {
+      "single": "Retinal Vascular Disorders"
+    },
+    "ODDiabeticRetinopathyNoDR": {
+      "single": "No DR"
+    },
+    "ODDiabeticRetinopathyMildNPDR": {
+      "single": "Mild NPDR"
+    },
+    "ODDiabeticRetinopathyModerateNPDR": {
+      "single": "Moderate NPDR"
+    },
+    "ODDiabeticRetinopathySevereNPDR": {
+      "single": "Severe NPDR"
+    },
+    "ODDiabeticRetinopathyEarlyPDR": {
+      "single": "Early PDR"
+    },
+    "ODDiabeticRetinopathyHRCPDR": {
+      "single": "HRC PDR"
+    },
+    "ODDiabeticRetinopathyVH": {
+      "single": "VH"
+    },
+    "ODDiabeticRetinopathyTRD": {
+      "single": "TRD"
+    },
+    "ODDiabeticRetinopathyTRDRRD": {
+      "single": "TRD/RRD"
+    },
+    "ODDiabeticRetinopathyRegressedPDR": {
+      "single": "Regressed PDR"
+    },
+    "ODDiabeticRetinopathyNonRegressedPDR": {
+      "single": "Non-Regressed PDR"
+    },
+    "ODDiabeticRetinopathyCIDME": {
+      "single": "CI-DME"
+    },
+    "ODDiabeticRetinopathyNonCIDME": {
+      "single": "Non-CI DME"
+    },
+    "ODDiabeticRetinopathyNVI": {
+      "single": "NVI"
+    },
+    "ODDiabeticRetinopathyNVG": {
+      "single": "NVG"
+    },
+    "ODAMDDryTypeAMD": {
+      "single": "Dry Type AMD"
+    },
+    "ODAMDGeographicAtrophy": {
+      "single": "Geographic Atrophy"
+    },
+    "ODAMDPCV": {
+      "single": "PCV"
+    },
+    "ODAMDRPETear": {
+      "single": "RPE Tear"
+    },
+    "ODAMDSubretinalDrusenoidDepositsSDD": {
+      "single": "Subretinal Drusenoid Deposits (SDD)"
+    },
+    "ODAMDCNV": {
+      "single": "CNV"
+    },
+    "ODPachychoroidAcuteCSC": {
+      "single": "Acute CSC"
+    },
+    "ODPachychoroidChronicCSC": {
+      "single": "Chronic CSC"
+    },
+    "ODPachychoroidPCV": {
+      "single": "PCV"
+    },
+    "ODPachychoroidPigmentEpitheliopathy": {
+      "single": "Pachychoroid Pigment Epitheliopathy"
+    },
+    "ODPachychoroidNeovasculopathy": {
+      "single": "Pachychoroid Neovasculopathy"
+    },
+    "ODRetinalVascularDisordersBRVO": {
+      "single": "BRVO"
+    },
+    "ODRetinalVascularDisordersCRVO": {
+      "single": "CRVO"
+    },
+    "ODRetinalVascularDisordersHemiRVO": {
+      "single": "Hemi-RVO"
+    },
+    "ODRetinalVascularDisordersBRAO": {
+      "single": "BRAO"
+    },
+    "ODRetinalVascularDisordersCRAO": {
+      "single": "CRAO"
+    },
+    "ODRetinalVascularDisordersCilioretinalArteryOcclusion": {
+      "single": "Cilioretinal Artery Occlusion"
+    },
+    "ODRetinalVascularDisordersCRAOwithSparedCilioretinalArtery": {
+      "single": "CRAO with Spared Cilioretinal Artery"
+    },
+    "ODRetinalVascularDisordersPAMM": {
+      "single": "PAMM"
+    },
+    "ODRetinalVascularDisordersOIS": {
+      "single": "OIS"
+    },
+    "ODRetinalVascularDisordersMacroaneurysm": {
+      "single": "Macroaneurysm"
+    },
+    "ODRetinalVascularDisordersHypertensiveRetinopathy": {
+      "single": "Hypertensive Retinopathy"
+    },
+    "ODRetinalVascularDisordersHypertensiveHypertensiveChoroidopathy": {
+      "single": "Hypertensive Choroidopathy"
+    },
+    "ODRetinalVascularDisordersHypertensiveIrvineGassSyndrome": {
+      "single": "Irvine-Gass Syndrome"
+    },
+    "ODRetinalVascularDisordersRadiationRetinopathy": {
+      "single": "Radiation Retinopathy"
+    },
+    "ODRetinalVascularDisordersMacTel2": {
+      "single": "MacTel 2"
+    },
+    "ODRetinalVascularDisordersTersonSyndrome": {
+      "single": "Terson Syndrome"
+    },
+    "ODRetinalVascularDisordersPurtscherRetinopathy": {
+      "single": "Purtscher Retinopathy"
+    },
+    "ODVitreoretinalInterfaceVMA": {
+      "single": "VMA"
+    },
+    "ODVitreoretinalInterfaceVMT": {
+      "single": "VMT"
+    },
+    "ODVitreoretinalInterfaceERM": {
+      "single": "ERM"
+    },
+    "ODVitreoretinalInterfaceFTMH": {
+      "single": "FTMH"
+    },
+    "ODDystrophiesandDegenerationsRP": {
+      "single": "RP"
+    },
+    "ODDystrophiesandDegenerationsConeDystrophy": {
+      "single": "Cone Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsRodDystrophy": {
+      "single": "Rod Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsConeRodDystrophy": {
+      "single": "Cone-Rod Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsRodConeDystrophy": {
+      "single": "Rod-Cone Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsAchromatopsia": {
+      "single": "Achromatopsia"
+    },
+    "ODDystrophiesandDegenerationsCSNB": {
+      "single": "CSNB"
+    },
+    "ODDystrophiesandDegenerationsLCA": {
+      "single": "LCA"
+    },
+    "ODDystrophiesandDegenerationsEnhancedSConeDystrophy": {
+      "single": "Enhanced S-Cone Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsChoroideremia": {
+      "single": "Choroideremia"
+    },
+    "ODDystrophiesandDegenerationsGyrateAtrohy": {
+      "single": "Gyrate Atrohy"
+    },
+    "ODDystrophiesandDegenerationsStargardtDisease": {
+      "single": "Stargardt Disease"
+    },
+    "ODDystrophiesandDegenerationsBestDisease": {
+      "single": "Best Disease"
+    },
+    "ODDystrophiesandDegenerationsAdultOnsetVitelliformDisease": {
+      "single": "Adult-Onset Vitelliform Disease"
+    },
+    "ODDystrophiesandDegenerationsPatternDystrophy": {
+      "single": "Pattern Dystrophy"
+    },
+    "ODDystrophiesandDegenerationsXlinkedRetinalDystrophy": {
+      "single": "X-linked Retinal Dystrophy"
+    },
+    "ODOncologyChoroidalMetastasis": {
+      "single": "Choroidal Metastasis"
+    },
+    "ODOncologyChoroidalMelanoma": {
+      "single": "Choroidal Melanoma"
+    },
+    "ODOncologyCiliaryBodyMelanoma": {
+      "single": "Ciliary Body Melanoma"
+    },
+    "ODOncologyIrisMelanoma": {
+      "single": "Iris Melanoma"
+    },
+    "ODOncologyChoroidalNevus": {
+      "single": "Choroidal Nevus"
+    },
+    "ODOncologyChoroidalHemangioma": {
+      "single": "Choroidal Hemangioma"
+    },
+    "ODOncologyHemangioblastoma": {
+      "single": "Hemangioblastoma"
+    },
+    "ODOncologyChoroidalOsteoma": {
+      "single": "Choroidal Osteoma"
+    },
+    "ODOncologyVitreoretinalLymphoma": {
+      "single": "Vitreoretinal Lymphoma"
+    },
+    "ODOncologyVPT": {
+      "single": "VPT"
+    },
+    "ODOncologyChoroidalLymphoma": {
+      "single": "Choroidal Lymphoma"
+    },
+    "ODOncologyAstrocyticHamartoma": {
+      "single": "Astrocytic Hamartoma"
+    },
+    "ODOncologyChoroidalGranuloma": {
+      "single": "Choroidal Granuloma"
+    },
+    "ODOncologyMelanocytoma": {
+      "single": "Melanocytoma"
+    },
+    "ODOncologyRetinoblastoma": {
+      "single": "Retinoblastoma"
+    },
+    "ODOncologyRetinoma": {
+      "single": "Retinoma"
+    },
+    "ODOncologyPEHCR": {
+      "single": "PEHCR"
+    },
+    "ODOncologyChoroidalDetachment": {
+      "single": "Choroidal Detachment"
+    },
+    "ODPediatricRetinaROP": {
+      "single": "ROP"
+    },
+    "ODPediatricRetinaFEVR": {
+      "single": "FEVR"
+    },
+    "ODPediatricRetinaPHPVPFV": {
+      "single": "PHPV-PFV"
+    },
+    "ODPediatricRetinaCoatsDisease": {
+      "single": "Coats Disease"
+    },
+    "ODPediatricRetinaIP": {
+      "single": "IP"
+    },
+    "ODMyopicRetinopathyTessellatedFundus": {
+      "single": "Tessellated Fundus"
+    },
+    "ODMyopicRetinopathyLacquerCrake": {
+      "single": "Lacquer Crake"
+    },
+    "ODMyopicRetinopathyDiffuseChorioretinalAtrophy": {
+      "single": "Diffuse Chorioretinal Atrophy"
+    },
+    "ODMyopicRetinopathyMyopicCNV": {
+      "single": "Myopic CNV"
+    },
+    "ODMyopicRetinopathyPatchyChorioretinalAtrophy": {
+      "single": "Patchy Chorioretinal Atrophy"
+    },
+    "ODMyopicMacularAtrophy": {
+      "single": "Macular Atrophy"
+    }
+  },
+  "1265": {
+    "OSGlaucomadiseasesPOAG": {
+      "single": "POAG"
+    },
+    "OSGlaucomadiseasesPACG": {
+      "single": "PACG"
+    },
+    "OSGlaucomadiseasesPediatricGlaucoma": {
+      "single": "Pediatric Glaucoma"
+    },
+    "OSGlaucomadiseasesSOAG": {
+      "single": "SOAG"
+    },
+    "OSGlaucomadiseasesSACG": {
+      "single": "SACG"
+    },
+    "OSGlaucomadiseasesHypotony": {
+      "single": "Hypotony"
+    },
+    "OSPOAGPOAG": {
+      "single": "POAG"
+    },
+    "OSPOAGGlaucomaSuspect": {
+      "single": "Glaucoma Suspect"
+    },
+    "OSPOAGOHTN": {
+      "single": "OHTN"
+    },
+    "OSPOAGNTG": {
+      "single": "NTG"
+    },
+    "OSPACGPACS": {
+      "single": "PACS"
+    },
+    "OSPACGPAC": {
+      "single": "PAC"
+    },
+    "OSPACGPACG": {
+      "single": "PACG"
+    },
+    "OSPACGAPAC": {
+      "single": "APAC"
+    },
+    "OSPACGPlateauIris": {
+      "single": "Plateau Iris"
+    },
+    "OSPediatricGlaucomaPCG": {
+      "single": "PCG"
+    },
+    "OSPediatricGlaucomaJOAG": {
+      "single": "JOAG"
+    },
+    "OSPediatricGlaucomaPetersAnomaly": {
+      "single": "Peters Anomaly"
+    },
+    "OSPediatricGlaucomaAnridia": {
+      "single": "Anridia"
+    },
+    "OSPediatricGlaucomaNeurofibromatosis": {
+      "single": "Neurofibromatosis"
+    },
+    "OSPediatricGlaucomaSturgeWeberSyndrome": {
+      "single": "Sturge Weber Syndrome"
+    },
+    "OSPediatricGlaucomaAxenfeldRiegerSyndrome": {
+      "single": "Axenfeld Rieger Syndrome"
+    },
+    "OSPediatricGlaucomaSturgeGlaucomaFollowingCataractSurgery": {
+      "single": "Glaucoma Following Cataract Surgery"
+    },
+    "OSSOAGPXG": {
+      "single": "PXG"
+    },
+    "OSSOAGPG": {
+      "single": "PG"
+    },
+    "OSSOAGLensInducedGlaucoma": {
+      "single": "Lens Induced Glaucoma"
+    },
+    "OSSOAGLensInducedGlaucomaPhacolyticGlaucoma": {
+      "single": "Phacolytic Glaucoma"
+    },
+    "OSSOAGLensInducedGlaucomaPhacoantigenicGlaucoma": {
+      "single": "Phacoantigenic Glaucoma"
+    },
+    "OSSOAGLensInducedGlaucomaLensParticleGlaucoma": {
+      "single": "Lens Particle Glaucoma"
+    },
+    "OSSOAGIntraocularTumors": {
+      "single": "Intraocular Tumors"
+    },
+    "OSSOAGUveiticGlaucoma": {
+      "single": "Uveitic Glaucoma"
+    },
+    "OSSOAGElevatedEVP": {
+      "single": "Elevated EVP"
+    },
+    "OSSOAGAngleRecession": {
+      "single": "Angle Recession"
+    },
+    "OSSOAGSchwartzSyndrome": {
+      "single": "Schwartz Syndrome"
+    },
+    "OSSOAGSteroidInduced": {
+      "single": "Steroid Induced"
+    },
+    "OSSOAGIntraocularHemorrhage": {
+      "single": "Intraocular Hemorrhage"
+    },
+    "OSSOAGIntraocularHemorrhageHyphema": {
+      "single": "Hyphema"
+    },
+    "OSSOAGIntraocularHemorrhageHemolyticandGhostCellGlaucoma": {
+      "single": "Hemolytic and Ghost Cell Glaucoma"
+    },
+    "OSSOAGSurgicallyInducedIOPElevation": {
+      "single": "Surgically Induced IOP Elevation"
+    },
+    "OSSOAGSurgicallyInducedIOPElevationKeratoplasty": {
+      "single": "Keratoplasty"
+    },
+    "OSSOAGSurgicallyInducedIOPElevationVitreoretinalSurgery": {
+      "single": "Vitreoretinal Surgery"
+    },
+    "OSSACGLensInducedGlaucoma": {
+      "single": "Lens Induced Glaucoma"
+    },
+    "OSSACGLensInducedGlaucomaPhacomorphicGlaucoma": {
+      "single": "Phacomorphic Glaucoma"
+    },
+    "OSSACGLensInducedGlaucomaEctopiaLentis": {
+      "single": "Ectopia Lentis"
+    },
+    "OSSACGMicrospherophakia": {
+      "single": "Microspherophakia"
+    },
+    "OSSACGMicrospherophakiaMalignantGlaucoma": {
+      "single": "Malignant Glaucoma"
+    },
+    "OSSACGMicrospherophakiaNanophthalmus": {
+      "single": "Nanophthalmus"
+    },
+    "OSSACGMicrospherophakiaUveiticGlaucoma": {
+      "single": "Uveitic Glaucoma"
+    },
+    "OSSACGNVG": {
+      "single": "NVG"
+    },
+    "OSSACGICE": {
+      "single": "ICE"
+    },
+    "OSSACGEpithelialandFibrousingrowth": {
+      "single": "Epithelial and Fibrous Ingrowth"
+    },
+    "OSSACGIntraocularTumors": {
+      "single": "Intraocular Tumors"
+    },
+    "OSSACGVitreoretinalSurgery": {
+      "single": "Vitreoretinal Surgery"
+    },
+    "OSSACGDrugInduced": {
+      "single": "Drug Induced"
+    },
+    "OSHypotonyOverfiltration": {
+      "single": "Overfiltration"
+    },
+    "OSHypotonyChoroidalEffusion": {
+      "single": "Choroidal Effusion"
+    },
+    "OSHypotonyCyclodialysis": {
+      "single": "Cyclodialysis"
+    },
+    "OSFrabiEvaluationPhysicianNote": {
+      "single": "Physician Note (OS)"
+    }
+  },
+  "1266": {
+    "ODGlaucomadiseasesPOAG": {
+      "single": "POAG"
+    },
+    "ODGlaucomadiseasesPACG": {
+      "single": "PACG"
+    },
+    "ODGlaucomadiseasesPediatricGlaucoma": {
+      "single": "Pediatric Glaucoma"
+    },
+    "ODGlaucomadiseasesSOAG": {
+      "single": "SOAG"
+    },
+    "ODGlaucomadiseasesSACG": {
+      "single": "SACG"
+    },
+    "ODGlaucomadiseasesHypotony": {
+      "single": "Hypotony"
+    },
+    "ODPOAGPOAG": {
+      "single": "POAG"
+    },
+    "ODPOAGGlaucomaSuspect": {
+      "single": "Glaucoma Suspect"
+    },
+    "ODPOAGOHTN": {
+      "single": "OHTN"
+    },
+    "ODPOAGNTG": {
+      "single": "NTG"
+    },
+    "ODPACGPACS": {
+      "single": "PACS"
+    },
+    "ODPACGPAC": {
+      "single": "PAC"
+    },
+    "ODPACGPACG": {
+      "single": "PACG"
+    },
+    "ODPACGAPAC": {
+      "single": "APAC"
+    },
+    "ODPACGPlateauIris": {
+      "single": "Plateau Iris"
+    },
+    "ODPediatricGlaucomaPCG": {
+      "single": "PCG"
+    },
+    "ODPediatricGlaucomaJOAG": {
+      "single": "JOAG"
+    },
+    "ODPediatricGlaucomaPetersAnomaly": {
+      "single": "Peters Anomaly"
+    },
+    "ODPediatricGlaucomaAnridia": {
+      "single": "Anridia"
+    },
+    "ODPediatricGlaucomaNeurofibromatosis": {
+      "single": "Neurofibromatosis"
+    },
+    "ODPediatricGlaucomaSturgeWeberSyndrome": {
+      "single": "Sturge Weber Syndrome"
+    },
+    "ODPediatricGlaucomaAxenfeldRiegerSyndrome": {
+      "single": "Axenfeld Rieger Syndrome"
+    },
+    "ODPediatricGlaucomaSturgeGlaucomaFollowingCataractSurgery": {
+      "single": "Glaucoma Following Cataract Surgery"
+    },
+    "ODSOAGPXG": {
+      "single": "PXG"
+    },
+    "ODSOAGPG": {
+      "single": "PG"
+    },
+    "ODSOAGLensInducedGlaucoma": {
+      "single": "Lens Induced Glaucoma"
+    },
+    "ODSOAGLensInducedGlaucomaPhacolyticGlaucoma": {
+      "single": "Phacolytic Glaucoma"
+    },
+    "ODSOAGLensInducedGlaucomaPhacoantigenicGlaucoma": {
+      "single": "Phacoantigenic Glaucoma"
+    },
+    "ODSOAGLensInducedGlaucomaLensParticleGlaucoma": {
+      "single": "Lens Particle Glaucoma"
+    },
+    "ODSOAGIntraocularTumors": {
+      "single": "Intraocular Tumors"
+    },
+    "ODSOAGUveiticGlaucoma": {
+      "single": "Uveitic Glaucoma"
+    },
+    "ODSOAGElevatedEVP": {
+      "single": "Elevated EVP"
+    },
+    "ODODSOAGAngleRecession": {
+      "single": "Angle Recession"
+    },
+    "ODSOAGSchwartzSyndrome": {
+      "single": "Schwartz Syndrome"
+    },
+    "ODSOAGSteroidInduced": {
+      "single": "Steroid Induced"
+    },
+    "ODSOAGIntraocularHemorrhage": {
+      "single": "Intraocular Hemorrhage"
+    },
+    "ODSOAGIntraocularHemorrhageHyphema": {
+      "single": "Hyphema"
+    },
+    "ODSOAGIntraocularHemorrhageHemolyticandGhostCellGlaucoma": {
+      "single": "Hemolytic and Ghost Cell Glaucoma"
+    },
+    "ODSOAGSurgicallyInducedIOPElevation": {
+      "single": "Surgically Induced IOP Elevation"
+    },
+    "ODSOAGSurgicallyInducedIOPElevationKeratoplasty": {
+      "single": "Keratoplasty"
+    },
+    "ODSOAGSurgicallyInducedIOPElevationVitreoretinalSurgery": {
+      "single": "Vitreoretinal Surgery"
+    },
+    "ODSACGLensInducedGlaucoma": {
+      "single": "Lens Induced Glaucoma"
+    },
+    "ODSACGLensInducedGlaucomaPhacomorphicGlaucoma": {
+      "single": "Phacomorphic Glaucoma"
+    },
+    "ODSACGLensInducedGlaucomaEctopiaLentis": {
+      "single": "Ectopia Lentis"
+    },
+    "ODSACGMicrospherophakia": {
+      "single": "Microspherophakia"
+    },
+    "ODSACGMicrospherophakiaMalignantGlaucoma": {
+      "single": "Malignant Glaucoma"
+    },
+    "ODSACGMicrospherophakiaNanophthalmus": {
+      "single": "Nanophthalmus"
+    },
+    "ODSACGMicrospherophakiaUveiticGlaucoma": {
+      "single": "Uveitic Glaucoma"
+    },
+    "ODSACGNVG": {
+      "single": "NVG"
+    },
+    "ODSACGICE": {
+      "single": "ICE"
+    },
+    "ODSACGEpithelialandFibrousingrowth": {
+      "single": "Epithelial and Fibrous Ingrowth"
+    },
+    "ODSACGIntraocularTumors": {
+      "single": "Intraocular Tumors"
+    },
+    "ODSACGVitreoretinalSurgery": {
+      "single": "Vitreoretinal Surgery"
+    },
+    "ODSACGDrugInduced": {
+      "single": "Drug Induced"
+    },
+    "ODHypotonyOverfiltration": {
+      "single": "Overfiltration"
+    },
+    "ODHypotonyChoroidalEffusion": {
+      "single": "Choroidal Effusion"
+    },
+    "ODHypotonyCyclodialysis": {
+      "single": "Cyclodialysis"
+    },
+    "ODFrabiEvaluationPhysicianNote": {
+      "single": "Physician Note (OD)"
+    }
+  },
+  "1267": {
+    "OSRetinaldiseasesDiabeticRetinopathy": {
+      "single": "Diabetic Retinopathy"
+    },
+    "OSRetinaldiseasesDystrophiesandDegenerations": {
+      "single": "Dystrophies and Degenerations"
+    },
+    "OSRetinaldiseasesAMD": {
+      "single": "AMD"
+    },
+    "OSRetinaldiseasesPediatricRetina": {
+      "single": "Pediatric Retina"
+    },
+    "OSRetinaldiseasesUveitis": {
+      "single": "Uveitis"
+    },
+    "OSRetinaldiseasesPachychoroid": {
+      "single": "Pachychoroid"
+    },
+    "OSRetinaldiseasesOncology": {
+      "single": "Oncology"
+    },
+    "OSRetinaldiseasesVitreoretinalInterface": {
+      "single": "Vitreoretinal Interface"
+    },
+    "OSRetinaldiseasesMyopicRetinopathy": {
+      "single": "Myopic Retinopathy"
+    },
+    "OSRetinaldiseasesRetinalVascularDisorders": {
+      "single": "Retinal Vascular Disorders"
+    },
+    "OSDiabeticRetinopathyNoDR": {
+      "single": "No DR"
+    },
+    "OSDiabeticRetinopathyMildNPDR": {
+      "single": "Mild NPDR"
+    },
+    "OSDiabeticRetinopathyModerateNPDR": {
+      "single": "Moderate NPDR"
+    },
+    "OSDiabeticRetinopathySevereNPDR": {
+      "single": "Severe NPDR"
+    },
+    "OSDiabeticRetinopathyEarlyPDR": {
+      "single": "Early PDR"
+    },
+    "OSDiabeticRetinopathyHRCPDR": {
+      "single": "HRC PDR"
+    },
+    "OSDiabeticRetinopathyVH": {
+      "single": "VH"
+    },
+    "OSDiabeticRetinopathyTRD": {
+      "single": "TRD"
+    },
+    "OSDiabeticRetinopathyTRDRRD": {
+      "single": "TRD/RRD"
+    },
+    "OSDiabeticRetinopathyRegressedPDR": {
+      "single": "Regressed PDR"
+    },
+    "OSDiabeticRetinopathyNonRegressedPDR": {
+      "single": "Non-Regressed PDR"
+    },
+    "OSDiabeticRetinopathyCIDME": {
+      "single": "CI-DME"
+    },
+    "OSDiabeticRetinopathyNonCIDME": {
+      "single": "Non-CI DME"
+    },
+    "OSDiabeticRetinopathyNVI": {
+      "single": "NVI"
+    },
+    "OSDiabeticRetinopathyNVG": {
+      "single": "NVG"
+    },
+    "OSAMDDryTypeAMD": {
+      "single": "Dry Type AMD"
+    },
+    "OSAMDGeographicAtrophy": {
+      "single": "Geographic Atrophy"
+    },
+    "OSAMDPCV": {
+      "single": "PCV"
+    },
+    "OSAMDRPETear": {
+      "single": "RPE Tear"
+    },
+    "OSAMDSubretinalDrusenoidDepositsSDD": {
+      "single": "Subretinal Drusenoid Deposits (SDD)"
+    },
+    "OSAMDCNV": {
+      "single": "CNV"
+    },
+    "OSPachychoroidAcuteCSC": {
+      "single": "Acute CSC"
+    },
+    "OSPachychoroidChronicCSC": {
+      "single": "Chronic CSC"
+    },
+    "OSPachychoroidPCV": {
+      "single": "PCV"
+    },
+    "OSPachychoroidPigmentEpitheliopathy": {
+      "single": "Pachychoroid Pigment Epitheliopathy"
+    },
+    "OSPachychoroidNeovasculopathy": {
+      "single": "Pachychoroid Neovasculopathy"
+    },
+    "OSRetinalVascularDisordersBRVO": {
+      "single": "BRVO"
+    },
+    "OSRetinalVascularDisordersCRVO": {
+      "single": "CRVO"
+    },
+    "OSRetinalVascularDisordersHemiRVO": {
+      "single": "Hemi-RVO"
+    },
+    "OSRetinalVascularDisordersBRAO": {
+      "single": "BRAO"
+    },
+    "OSRetinalVascularDisordersCRAO": {
+      "single": "CRAO"
+    },
+    "OSRetinalVascularDisordersCilioretinalArteryOcclusion": {
+      "single": "Cilioretinal Artery Occlusion"
+    },
+    "OSRetinalVascularDisordersCRAOwithSparedCilioretinalArtery": {
+      "single": "CRAO with Spared Cilioretinal Artery"
+    },
+    "OSRetinalVascularDisordersPAMM": {
+      "single": "PAMM"
+    },
+    "OSRetinalVascularDisordersOIS": {
+      "single": "OIS"
+    },
+    "OSRetinalVascularDisordersMacroaneurysm": {
+      "single": "Macroaneurysm"
+    },
+    "OSRetinalVascularDisordersHypertensiveRetinopathy": {
+      "single": "Hypertensive Retinopathy"
+    },
+    "OSRetinalVascularDisordersHypertensiveHypertensiveChoroidopathy": {
+      "single": "Hypertensive Choroidopathy"
+    },
+    "OSRetinalVascularDisordersHypertensiveIrvineGassSyndrome": {
+      "single": "Irvine-Gass Syndrome"
+    },
+    "OSRetinalVascularDisordersRadiationRetinopathy": {
+      "single": "Radiation Retinopathy"
+    },
+    "OSRetinalVascularDisordersMacTel2": {
+      "single": "MacTel 2"
+    },
+    "OSRetinalVascularDisordersTersonSyndrome": {
+      "single": "Terson Syndrome"
+    },
+    "OSRetinalVascularDisordersPurtscherRetinopathy": {
+      "single": "Purtscher Retinopathy"
+    },
+    "OSVitreoretinalInterfaceVMA": {
+      "single": "VMA"
+    },
+    "OSVitreoretinalInterfaceVMT": {
+      "single": "VMT"
+    },
+    "OSVitreoretinalInterfaceERM": {
+      "single": "ERM"
+    },
+    "OSVitreoretinalInterfaceFTMH": {
+      "single": "FTMH"
+    },
+    "OSDystrophiesandDegenerationsRP": {
+      "single": "RP"
+    },
+    "OSDystrophiesandDegenerationsConeDystrophy": {
+      "single": "Cone Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsRodDystrophy": {
+      "single": "Rod Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsConeRodDystrophy": {
+      "single": "Cone-Rod Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsRodConeDystrophy": {
+      "single": "Rod-Cone Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsAchromatopsia": {
+      "single": "Achromatopsia"
+    },
+    "OSDystrophiesandDegenerationsCSNB": {
+      "single": "CSNB"
+    },
+    "OSDystrophiesandDegenerationsLCA": {
+      "single": "LCA"
+    },
+    "OSDystrophiesandDegenerationsEnhancedSConeDystrophy": {
+      "single": "Enhanced S-Cone Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsChoroideremia": {
+      "single": "Choroideremia"
+    },
+    "OSDystrophiesandDegenerationsGyrateAtrohy": {
+      "single": "Gyrate Atrohy"
+    },
+    "OSDystrophiesandDegenerationsStargardtDisease": {
+      "single": "Stargardt Disease"
+    },
+    "OSDystrophiesandDegenerationsBestDisease": {
+      "single": "Best Disease"
+    },
+    "OSDystrophiesandDegenerationsAdultOnsetVitelliformDisease": {
+      "single": "Adult-Onset Vitelliform Disease"
+    },
+    "OSDystrophiesandDegenerationsPatternDystrophy": {
+      "single": "Pattern Dystrophy"
+    },
+    "OSDystrophiesandDegenerationsXlinkedRetinalDystrophy": {
+      "single": "X-linked Retinal Dystrophy"
+    },
+    "OSOncologyChoroidalMetastasis": {
+      "single": "Choroidal Metastasis"
+    },
+    "OSOncologyChoroidalMelanoma": {
+      "single": "Choroidal Melanoma"
+    },
+    "OSOncologyCiliaryBodyMelanoma": {
+      "single": "Ciliary Body Melanoma"
+    },
+    "OSOncologyIrisMelanoma": {
+      "single": "Iris Melanoma"
+    },
+    "OSOncologyChoroidalNevus": {
+      "single": "Choroidal Nevus"
+    },
+    "OSOncologyChoroidalHemangioma": {
+      "single": "Choroidal Hemangioma"
+    },
+    "OSOncologyHemangioblastoma": {
+      "single": "Hemangioblastoma"
+    },
+    "OSOncologyChoroidalOsteoma": {
+      "single": "Choroidal Osteoma"
+    },
+    "OSOncologyVitreoretinalLymphoma": {
+      "single": "Vitreoretinal Lymphoma"
+    },
+    "OSOncologyVPT": {
+      "single": "VPT"
+    },
+    "OSOncologyChoroidalLymphoma": {
+      "single": "Choroidal Lymphoma"
+    },
+    "OSOncologyAstrocyticHamartoma": {
+      "single": "Astrocytic Hamartoma"
+    },
+    "OSOncologyChoroidalGranuloma": {
+      "single": "Choroidal Granuloma"
+    },
+    "OSOncologyMelanocytoma": {
+      "single": "Melanocytoma"
+    },
+    "OSOncologyRetinoblastoma": {
+      "single": "Retinoblastoma"
+    },
+    "OSOncologyRetinoma": {
+      "single": "Retinoma"
+    },
+    "OSOncologyPEHCR": {
+      "single": "PEHCR"
+    },
+    "OSOncologyChoroidalDetachment": {
+      "single": "Choroidal Detachment"
+    },
+    "OSPediatricRetinaROP": {
+      "single": "ROP"
+    },
+    "OSPediatricRetinaFEVR": {
+      "single": "FEVR"
+    },
+    "OSPediatricRetinaPHPVPFV": {
+      "single": "PHPV-PFV"
+    },
+    "OSPediatricRetinaCoatsDisease": {
+      "single": "Coats Disease"
+    },
+    "OSPediatricRetinaIP": {
+      "single": "IP"
+    },
+    "OSMyopicRetinopathyTessellatedFundus": {
+      "single": "Tessellated Fundus"
+    },
+    "OSMyopicRetinopathyLacquerCrake": {
+      "single": "Lacquer Crake"
+    },
+    "OSMyopicRetinopathyDiffuseChorioretinalAtrophy": {
+      "single": "Diffuse Chorioretinal Atrophy"
+    },
+    "OSMyopicRetinopathyMyopicCNV": {
+      "single": "Myopic CNV"
+    },
+    "OSMyopicRetinopathyPatchyChorioretinalAtrophy": {
+      "single": "Patchy Chorioretinal Atrophy"
+    },
+    "OSMyopicMacularAtrophy": {
+      "single": "Macular Atrophy"
+    }
+  },
+  "point_labels": {
+    "1034": "History",
+    "1035": "Refraction",
+    "1037": "External Eye Exam#Right Upper Eyelid",
+    "1038": "External Eye Exam#Right Eyebrow",
+    "1039": "External Eye Exam#Right Lacrimal System",
+    "1040": "External Eye Exam#Right Globe",
+    "1042": "External Eye Exam#Right Lower Eyelid",
+    "1044": "Anterior Segment and Angle#Right Conjunctiva and Sclera",
+    "1045": "Anterior Segment and Angle#Right Cornea",
+    "1046": "Anterior Segment and Angle#Right IOP & Angle",
+    "1047": "Anterior Segment and Angle#Right Anterior Chamber",
+    "1048": "Anterior Segment and Angle#Right Iris",
+    "1049": "Anterior Segment and Angle#Right Pupil",
+    "1050": "Anterior Segment and Angle#Right Crystalline Lens",
+    "1052": "Fundus Exam#Right Vitreous",
+    "1053": "Fundus Exam#Right Optic Disc",
+    "1054": "Fundus Exam#Right Vitreoretinal Interface",
+    "1055": "Fundus Exam#Right Macula",
+    "1056": "Fundus Exam#Right Vascular System",
+    "1058": "Fundus Exam#Right Peripheral Retina",
+    "1059": "Fundus Exam#Right Traumatic Lesions",
+    "1060": "Plan",
+    "1063": "Strabismus#Abnormal Head Position",
+    "1064": "Strabismus#Nystagmus",
+    "1065": "Strabismus#Deviation",
+    "1067": "Strabismus#EOM Overaction and Limitations (OD)",
+    "1068": "Strabismus#EOM Overaction and Limitations (OS)",
+    "1090": "Fundus Exam#Left Vitreous",
+    "1091": "Fundus Exam#Left Optic Disc",
+    "1092": "Fundus Exam#Left Vitreoretinal Interface",
+    "1093": "Fundus Exam#Left Vascular System",
+    "1094": "Fundus Exam#Left Peripheral Retina",
+    "1095": "Fundus Exam#Left Traumatic Lesions",
+    "1096": "Fundus Exam#Left Macula",
+    "1097": "Anterior Segment and Angle#Left Conjunctiva and Sclera",
+    "1098": "Anterior Segment and Angle#Left Cornea",
+    "1099": "Anterior Segment and Angle#Left Iris",
+    "1100": "Anterior Segment and Angle#Left Pupil",
+    "1101": "Anterior Segment and Angle#Left Anterior Chamber",
+    "1102": "Anterior Segment and Angle#Left Crystalline Lens",
+    "1103": "Anterior Segment and Angle#Left IOP & Angle",
+    "1104": "External Eye Exam#Left Upper Eyelid",
+    "1105": "External Eye Exam#Left Eyebrow",
+    "1106": "External Eye Exam#Left Lacrimal System",
+    "1107": "External Eye Exam#Left Globe",
+    "1108": "External Eye Exam#Left Lower Eyelid",
+    "1196": "Demography",
+    "1264": "Evaluation#Vitreo-Retinal Disease (OD)",
+    "1265": "Evaluation#Glaucoma (OS)",
+    "1266": "Evaluation#Glaucoma (OD)",
+    "1267": "Evaluation#Vitreo-Retinal Diseases (OS)"
+  }
+}
